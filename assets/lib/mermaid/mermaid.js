@@ -6863,7 +6863,7 @@
     }
     return text2;
   };
-  const sanitizeText$5 = (text2, config2) => {
+  const sanitizeText$6 = (text2, config2) => {
     if (!text2) {
       return text2;
     }
@@ -6878,9 +6878,9 @@
   };
   const sanitizeTextOrArray = (a, config2) => {
     if (typeof a === "string") {
-      return sanitizeText$5(a, config2);
+      return sanitizeText$6(a, config2);
     }
-    return a.flat().map((x2) => sanitizeText$5(x2, config2));
+    return a.flat().map((x2) => sanitizeText$6(x2, config2));
   };
   const hasBreaks = (text2) => {
     return lineBreakRegex.test(text2);
@@ -7011,7 +7011,7 @@
   };
   const common$1 = {
     getRows,
-    sanitizeText: sanitizeText$5,
+    sanitizeText: sanitizeText$6,
     sanitizeTextOrArray,
     hasBreaks,
     splitBreaks,
@@ -9552,7 +9552,7 @@
     "deterministicIds": false,
     "fontSize": 16
   };
-  const config$3 = {
+  const config$4 = {
     ...defaultConfigJson,
     // Set, even though they're `undefined` so that `configKeys` finds these keys
     // TODO: Should we replace these with `null` so that they can go in the JSON Schema?
@@ -9782,8 +9782,8 @@
     }
     return [...res, prefix + el];
   }, []);
-  const configKeys = new Set(keyify(config$3, ""));
-  const defaultConfig$2 = config$3;
+  const configKeys = new Set(keyify(config$4, ""));
+  const defaultConfig$2 = config$4;
   const sanitizeDirective = (args) => {
     log$1.debug("sanitizeDirective called with", args);
     if (typeof args !== "object" || args == null) {
@@ -11464,7 +11464,7 @@
     }
     return strlen(children2 = serialize(element2.children, callback)) ? element2.return = element2.value + "{" + children2 + "}" : "";
   }
-  const version$1 = "10.9.0";
+  const version$1 = "10.9.1";
   const defaultConfig$1 = Object.freeze(defaultConfig$2);
   let siteConfig = assignWithDepth$1({}, defaultConfig$1);
   let configFromInitialize;
@@ -11944,22 +11944,22 @@
   let accTitle = "";
   let diagramTitle = "";
   let accDescription = "";
-  const sanitizeText$4 = (txt) => sanitizeText$5(txt, getConfig$2());
+  const sanitizeText$5 = (txt) => sanitizeText$6(txt, getConfig$2());
   const clear$n = () => {
     accTitle = "";
     accDescription = "";
     diagramTitle = "";
   };
   const setAccTitle = (txt) => {
-    accTitle = sanitizeText$4(txt).replace(/^\s+/g, "");
+    accTitle = sanitizeText$5(txt).replace(/^\s+/g, "");
   };
   const getAccTitle = () => accTitle;
   const setAccDescription = (txt) => {
-    accDescription = sanitizeText$4(txt).replace(/\n\s+/g, "\n");
+    accDescription = sanitizeText$5(txt).replace(/\n\s+/g, "\n");
   };
   const getAccDescription = () => accDescription;
   const setDiagramTitle = (txt) => {
-    diagramTitle = sanitizeText$4(txt);
+    diagramTitle = sanitizeText$5(txt);
   };
   const getDiagramTitle = () => diagramTitle;
   const commonDb = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
@@ -11977,7 +11977,7 @@
   const getConfig$1 = getConfig$2;
   const setConfig = setConfig$1;
   const defaultConfig = defaultConfig$1;
-  const sanitizeText$3 = (text2) => sanitizeText$5(text2, getConfig$1());
+  const sanitizeText$4 = (text2) => sanitizeText$6(text2, getConfig$1());
   const setupGraphViewbox = setupGraphViewbox$1;
   const getCommonDb$1 = () => {
     return commonDb;
@@ -11998,7 +11998,7 @@
       log,
       setLogLevel,
       getConfig$1,
-      sanitizeText$3,
+      sanitizeText$4,
       setupGraphViewbox,
       getCommonDb$1(),
       () => {
@@ -30326,7 +30326,7 @@ ${config2.themeCSS}`;
     return c4Type;
   };
   const setC4Type = function(c4TypeParam) {
-    let sanitizedText = sanitizeText$5(c4TypeParam, getConfig$1());
+    let sanitizedText = sanitizeText$6(c4TypeParam, getConfig$1());
     c4Type = sanitizedText;
   };
   const addRel = function(type2, from2, to, label, techn, descr, sprite, tags2, link2) {
@@ -30948,7 +30948,7 @@ ${config2.themeCSS}`;
     OVER: 2
   };
   const setTitle = function(txt) {
-    let sanitizedText = sanitizeText$5(txt, getConfig$1());
+    let sanitizedText = sanitizeText$6(txt, getConfig$1());
     title = sanitizedText;
   };
   const db$g = {
@@ -33032,7 +33032,7 @@ ${config2.themeCSS}`;
   const parser$u = parser$t;
   const MERMAID_DOM_ID_PREFIX$1 = "flowchart-";
   let vertexCounter = 0;
-  let config$2 = getConfig$1();
+  let config$3 = getConfig$1();
   let vertices = {};
   let edges = [];
   let classes$3 = {};
@@ -33044,7 +33044,7 @@ ${config2.themeCSS}`;
   let direction$3;
   let version;
   let funs$1 = [];
-  const sanitizeText$2 = (txt) => common$1.sanitizeText(txt, config$2);
+  const sanitizeText$3 = (txt) => common$1.sanitizeText(txt, config$3);
   const lookUpDomId$1 = function(id2) {
     const vertexKeys = Object.keys(vertices);
     for (const vertexKey of vertexKeys) {
@@ -33074,8 +33074,8 @@ ${config2.themeCSS}`;
     }
     vertexCounter++;
     if (textObj !== void 0) {
-      config$2 = getConfig$1();
-      txt = sanitizeText$2(textObj.text.trim());
+      config$3 = getConfig$1();
+      txt = sanitizeText$3(textObj.text.trim());
       vertices[id2].labelType = textObj.type;
       if (txt[0] === '"' && txt[txt.length - 1] === '"') {
         txt = txt.substring(1, txt.length - 1);
@@ -33115,7 +33115,7 @@ ${config2.themeCSS}`;
     log$1.info("abc78 Got edge...", edge);
     const linkTextObj = type2.text;
     if (linkTextObj !== void 0) {
-      edge.text = sanitizeText$2(linkTextObj.text.trim());
+      edge.text = sanitizeText$3(linkTextObj.text.trim());
       if (edge.text[0] === '"' && edge.text[edge.text.length - 1] === '"') {
         edge.text = edge.text.substring(1, edge.text.length - 1);
       }
@@ -33129,12 +33129,12 @@ ${config2.themeCSS}`;
     if ((edge == null ? void 0 : edge.length) > 10) {
       edge.length = 10;
     }
-    if (edges.length < (config$2.maxEdges ?? 500)) {
+    if (edges.length < (config$3.maxEdges ?? 500)) {
       log$1.info("abc78 pushing edge...");
       edges.push(edge);
     } else {
       throw new Error(
-        `Edge limit exceeded. ${edges.length} edges found, but the limit is ${config$2.maxEdges}.
+        `Edge limit exceeded. ${edges.length} edges found, but the limit is ${config$3.maxEdges}.
 
 Initialize mermaid with maxEdges set to a higher number to allow more edges.
 You cannot set this config via configuration inside the diagram as it is a secure config.
@@ -33225,7 +33225,7 @@ You have to call mermaid.initialize.`
   const setTooltip$1 = function(ids, tooltip) {
     ids.split(",").forEach(function(id2) {
       if (tooltip !== void 0) {
-        tooltips[version === "gen-1" ? lookUpDomId$1(id2) : id2] = sanitizeText$2(tooltip);
+        tooltips[version === "gen-1" ? lookUpDomId$1(id2) : id2] = sanitizeText$3(tooltip);
       }
     });
   };
@@ -33270,7 +33270,7 @@ You have to call mermaid.initialize.`
   const setLink$2 = function(ids, linkStr, target) {
     ids.split(",").forEach(function(id2) {
       if (vertices[id2] !== void 0) {
-        vertices[id2].link = utils$1.formatUrl(linkStr, config$2);
+        vertices[id2].link = utils$1.formatUrl(linkStr, config$3);
         vertices[id2].linkTarget = target;
       }
     });
@@ -33341,7 +33341,7 @@ You have to call mermaid.initialize.`
     tooltips = {};
     firstGraphFlag = true;
     version = ver;
-    config$2 = getConfig$1();
+    config$3 = getConfig$1();
     clear$n();
   };
   const setGen = (ver) => {
@@ -33387,7 +33387,7 @@ You have to call mermaid.initialize.`
     }
     id2 = id2 || "subGraph" + subCount;
     title2 = title2 || "";
-    title2 = sanitizeText$2(title2);
+    title2 = sanitizeText$3(title2);
     subCount = subCount + 1;
     const subGraph = {
       id: id2,
@@ -43620,7 +43620,7 @@ You have to call mermaid.initialize.`
     const textNode = label.node();
     let text2;
     if (node2.labelType === "markdown") {
-      text2 = createText(label, sanitizeText$5(decodeEntities(labelText), getConfig$1()), {
+      text2 = createText(label, sanitizeText$6(decodeEntities(labelText), getConfig$1()), {
         useHtmlLabels,
         width: node2.width || getConfig$1().flowchart.wrappingWidth,
         classes: "markdown-node-label"
@@ -43628,7 +43628,7 @@ You have to call mermaid.initialize.`
     } else {
       text2 = textNode.appendChild(
         createLabel$1(
-          sanitizeText$5(decodeEntities(labelText), getConfig$1()),
+          sanitizeText$6(decodeEntities(labelText), getConfig$1()),
           node2.labelStyle,
           false,
           isNode
@@ -52875,15 +52875,15 @@ You have to call mermaid.initialize.`
   };
   let sections$2 = DEFAULT_PIE_DB.sections;
   let showData = DEFAULT_PIE_DB.showData;
-  const config$1 = structuredClone(DEFAULT_PIE_CONFIG);
-  const getConfig = () => structuredClone(config$1);
+  const config$2 = structuredClone(DEFAULT_PIE_CONFIG);
+  const getConfig = () => structuredClone(config$2);
   const clear$b = () => {
     sections$2 = structuredClone(DEFAULT_PIE_DB.sections);
     showData = DEFAULT_PIE_DB.showData;
     clear$n();
   };
   const addSection$2 = (label, value2) => {
-    label = sanitizeText$5(label, getConfig$1());
+    label = sanitizeText$6(label, getConfig$1());
     if (sections$2[label] === void 0) {
       sections$2[label] = value2;
       log$1.debug(`added new section: ${label}, with value: ${value2}`);
@@ -54084,9 +54084,9 @@ You have to call mermaid.initialize.`
       };
     }
   }
-  const config = getConfig$1();
+  const config$1 = getConfig$1();
   function textSanitizer$1(text2) {
-    return sanitizeText$5(text2.trim(), config);
+    return sanitizeText$6(text2.trim(), config$1);
   }
   const quadrantBuilder = new QuadrantBuilder();
   function setQuadrant1Text(textObj) {
@@ -55764,7 +55764,7 @@ You have to call mermaid.initialize.`
   }
   function textSanitizer(text2) {
     const config2 = getConfig$2();
-    return sanitizeText$5(text2.trim(), config2);
+    return sanitizeText$6(text2.trim(), config2);
   }
   function setTmpSVGG(SVGG) {
     tmpSVGGroup = SVGG;
@@ -58102,7 +58102,7 @@ You have to call mermaid.initialize.`
     }
     return {
       color: color2,
-      text: title2 !== void 0 ? sanitizeText$5(title2.replace(/^:?(?:no)?wrap:/, ""), getConfig$1()) : void 0,
+      text: title2 !== void 0 ? sanitizeText$6(title2.replace(/^:?(?:no)?wrap:/, ""), getConfig$1()) : void 0,
       wrap: title2 !== void 0 ? title2.match(/^:?wrap:/) !== null ? true : title2.match(/^:?nowrap:/) !== null ? false : void 0 : void 0
     };
   };
@@ -58168,7 +58168,7 @@ You have to call mermaid.initialize.`
   const addLinks = function(actorId, text2) {
     const actor = getActor(actorId);
     try {
-      let sanitizedText = sanitizeText$5(text2.text, getConfig$1());
+      let sanitizedText = sanitizeText$6(text2.text, getConfig$1());
       sanitizedText = sanitizedText.replace(/&amp;/g, "&");
       sanitizedText = sanitizedText.replace(/&equals;/g, "=");
       const links2 = JSON.parse(sanitizedText);
@@ -58181,7 +58181,7 @@ You have to call mermaid.initialize.`
     const actor = getActor(actorId);
     try {
       const links2 = {};
-      let sanitizedText = sanitizeText$5(text2.text, getConfig$1());
+      let sanitizedText = sanitizeText$6(text2.text, getConfig$1());
       var sep2 = sanitizedText.indexOf("@");
       sanitizedText = sanitizedText.replace(/&amp;/g, "&");
       sanitizedText = sanitizedText.replace(/&equals;/g, "=");
@@ -58205,7 +58205,7 @@ You have to call mermaid.initialize.`
   const addProperties = function(actorId, text2) {
     const actor = getActor(actorId);
     try {
-      let sanitizedText = sanitizeText$5(text2.text, getConfig$1());
+      let sanitizedText = sanitizeText$6(text2.text, getConfig$1());
       const properties = JSON.parse(sanitizedText);
       insertProperties(actor, properties);
     } catch (e) {
@@ -61305,7 +61305,7 @@ You have to call mermaid.initialize.`
       this.memberType = memberType;
       this.visibility = "";
       this.classifier = "";
-      const sanitizedInput = sanitizeText$5(input, getConfig$1());
+      const sanitizedInput = sanitizeText$6(input, getConfig$1());
       this.parseMember(sanitizedInput);
     }
     getDisplayDetails() {
@@ -61381,22 +61381,22 @@ You have to call mermaid.initialize.`
   let namespaces = {};
   let namespaceCounter = 0;
   let functions = [];
-  const sanitizeText$1 = (txt) => common$1.sanitizeText(txt, getConfig$1());
+  const sanitizeText$2 = (txt) => common$1.sanitizeText(txt, getConfig$1());
   const splitClassNameAndType = function(_id) {
     const id2 = common$1.sanitizeText(_id, getConfig$1());
     let genericType = "";
     let className = id2;
     if (id2.indexOf("~") > 0) {
       const split = id2.split("~");
-      className = sanitizeText$1(split[0]);
-      genericType = sanitizeText$1(split[1]);
+      className = sanitizeText$2(split[0]);
+      genericType = sanitizeText$2(split[1]);
     }
     return { className, type: genericType };
   };
   const setClassLabel = function(_id, label) {
     const id2 = common$1.sanitizeText(_id, getConfig$1());
     if (label) {
-      label = sanitizeText$1(label);
+      label = sanitizeText$2(label);
     }
     const { className } = splitClassNameAndType(id2);
     classes$2[className].label = label;
@@ -61471,7 +61471,7 @@ You have to call mermaid.initialize.`
     if (typeof member === "string") {
       const memberString = member.trim();
       if (memberString.startsWith("<<") && memberString.endsWith(">>")) {
-        theClass.annotations.push(sanitizeText$1(memberString.substring(2, memberString.length - 2)));
+        theClass.annotations.push(sanitizeText$2(memberString.substring(2, memberString.length - 2)));
       } else if (memberString.indexOf(")") > 0) {
         theClass.methods.push(new ClassMember(memberString, "method"));
       } else if (memberString) {
@@ -61497,7 +61497,7 @@ You have to call mermaid.initialize.`
     if (label.startsWith(":")) {
       label = label.substring(1);
     }
-    return sanitizeText$1(label.trim());
+    return sanitizeText$2(label.trim());
   };
   const setCssClass$2 = function(ids, className) {
     ids.split(",").forEach(function(_id) {
@@ -61513,7 +61513,7 @@ You have to call mermaid.initialize.`
   const setTooltip = function(ids, tooltip) {
     ids.split(",").forEach(function(id2) {
       if (tooltip !== void 0) {
-        classes$2[id2].tooltip = sanitizeText$1(tooltip);
+        classes$2[id2].tooltip = sanitizeText$2(tooltip);
       }
     });
   };
@@ -61535,7 +61535,7 @@ You have to call mermaid.initialize.`
         if (config2.securityLevel === "sandbox") {
           classes$2[id2].linkTarget = "_top";
         } else if (typeof target === "string") {
-          classes$2[id2].linkTarget = sanitizeText$1(target);
+          classes$2[id2].linkTarget = sanitizeText$2(target);
         } else {
           classes$2[id2].linkTarget = "_blank";
         }
@@ -62221,7 +62221,7 @@ g.classGroup line {
     __proto__: null,
     diagram: diagram$9
   }, Symbol.toStringTag, { value: "Module" }));
-  const sanitizeText = (txt) => common$1.sanitizeText(txt, getConfig$1());
+  const sanitizeText$1 = (txt) => common$1.sanitizeText(txt, getConfig$1());
   let conf$3 = {
     dividerMargin: 10,
     padding: 5,
@@ -62240,7 +62240,7 @@ g.classGroup line {
         shape,
         id: vertex.id,
         domId: vertex.domId,
-        labelText: sanitizeText(vertex.id),
+        labelText: sanitizeText$1(vertex.id),
         labelStyle: "",
         style: "fill: none; stroke: black",
         // TODO V10: Flowchart ? Keeping flowchart for backwards compatibility. Remove in next major release
@@ -62266,7 +62266,7 @@ g.classGroup line {
       const node2 = {
         labelStyle: styles2.labelStyle,
         shape,
-        labelText: sanitizeText(vertexText),
+        labelText: sanitizeText$1(vertexText),
         classData: vertex,
         rx: radius,
         ry: radius,
@@ -62302,7 +62302,7 @@ g.classGroup line {
       const node2 = {
         labelStyle: styles2.labelStyle,
         shape,
-        labelText: sanitizeText(vertexText),
+        labelText: sanitizeText$1(vertexText),
         noteData: vertex,
         rx: radius,
         ry: radius,
@@ -161066,9 +161066,9 @@ g.stateGroup line {
     }
     const node2 = {
       id: cnt$1++,
-      nodeId: sanitizeText$5(id2, conf2),
+      nodeId: sanitizeText$6(id2, conf2),
       level,
-      descr: sanitizeText$5(descr, conf2),
+      descr: sanitizeText$6(descr, conf2),
       type: type2,
       children: [],
       width: ((_b2 = conf2.mindmap) == null ? void 0 : _b2.maxNodeWidth) ?? defaultConfig$2.mindmap.maxNodeWidth,
@@ -161127,10 +161127,10 @@ g.stateGroup line {
     const config2 = getConfig$1();
     const node2 = nodes$1[nodes$1.length - 1];
     if (decoration.icon) {
-      node2.icon = sanitizeText$5(decoration.icon, config2);
+      node2.icon = sanitizeText$6(decoration.icon, config2);
     }
     if (decoration.class) {
-      node2.class = sanitizeText$5(decoration.class, config2);
+      node2.class = sanitizeText$6(decoration.class, config2);
     }
   };
   const type2Str = (type2) => {
@@ -194890,7 +194890,9 @@ ${prefix}${Math.round(value2 * 100) / 100}${suffix}`;
   const FILL_KEYWORD = "fill";
   const BG_FILL = "bgFill";
   const STYLECLASS_SEP = ",";
+  const config = getConfig$1();
   let classes = {};
+  const sanitizeText = (txt) => common$1.sanitizeText(txt, config);
   const addStyleClass = function(id2, styleAttributes = "") {
     if (classes[id2] === void 0) {
       classes[id2] = { id: id2, styles: [], textStyles: [] };
@@ -194932,6 +194934,9 @@ ${prefix}${Math.round(value2 * 100) / 100}${suffix}`;
     const blockList = _blockList.flat();
     const children2 = [];
     for (const block2 of blockList) {
+      if (block2.label) {
+        block2.label = sanitizeText(block2.label);
+      }
       if (block2.type === "classDef") {
         addStyleClass(block2.id, block2.css);
         continue;
