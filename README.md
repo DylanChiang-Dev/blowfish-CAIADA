@@ -128,6 +128,26 @@ npm run assets       # 重新複製第三方庫
 
 詳細的開發指南請參考 [CLAUDE.md](./CLAUDE.md) 文件。
 
+## 🌐 Cloudflare Pages 部署
+
+現在可以在 Cloudflare Pages 中連接此 GitHub 倉庫並配置自動部署：
+
+### 1. Cloudflare Pages 設置
+- **構建命令**：`hugo --minify --gc`
+- **構建輸出目錄**：`public`
+- **根目錄**：`exampleSite`
+- **環境變量**：
+  - `HUGO_VERSION`: `0.150.1`
+  - `NODE_VERSION`: `18`
+
+### 2. 部署後驗證
+- [ ] 中文內容正確顯示
+- [ ] 導航菜單功能正常
+- [ ] 深色模式切換正常
+- [ ] 移動端響應式適配
+
+GitHub 倉庫現在已經完全準備好用於 Cloudflare Pages 部署。
+
 ## 🤝 貢獻指南
 
 1. Fork 本專案
