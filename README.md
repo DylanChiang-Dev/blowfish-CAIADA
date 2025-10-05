@@ -1,178 +1,153 @@
-English | [Indonesian](https://github.com/nunocoracao/blowfish/blob/main/README.id.md) | [简体中文](https://github.com/nunocoracao/blowfish/blob/main/README.zh-cn.md) | [日本語](https://github.com/nunocoracao/blowfish/blob/main/README.ja.md)
-# Blowfish
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6e5256d4-3148-4d69-879c-310341020fe9/deploy-status)](https://app.netlify.com/sites/snazzy-dango-efb2ec/deploys)
-[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=0.87.0&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.87.0)
-[![GitHub](https://img.shields.io/github/license/nunocoracao/blowfish)](https://github.com/nunocoracao/blowfish/blob/main/LICENSE)
-[![Blowfish](https://img.shields.io/badge/Hugo--Themes-@Blowfish-blue)](https://themes.gohugo.io/themes/blowfish/)
-![code-size](https://img.shields.io/github/languages/code-size/nunocoracao/blowfish)
+# 中華AI應用發展協會官方網站
 
-Blowfish is designed to be a powerful, lightweight theme for [Hugo](https://gohugo.io). It's built using Tailwind CSS with a clean and minimalist design that prioritises to your content.
+基於 Hugo Blowfish 主題建構的響應式官方網站，專為台灣AI產業發展協會提供專業的線上展示平台。
 
-![blowfish screenshot](https://github.com/nunocoracao/blowfish/blob/main/images/screenshot.png?raw=true)
+## ✨ 主要特色
 
+- 🎨 **響應式設計** - 完美支援手機、平板、桌面全適配
+- 🌙 **深色模式** - 預設深色主題，提供明暗切換
+- 🔍 **全站搜索** - 由 Fuse.js 驅動的客戶端搜索
+- 📱 **極簡導航** - 簡潔清晰的網站結構
+- 🇨🇳 **中文優化** - 針對中文顯示優化字體和間距
+- ⚡ **快速載入** - 經優化的靜態資源和全球 CDN
 
-🌏 [Demo site](https://blowfish.page/)  
-📑 [Theme documentation](https://blowfish.page/docs/)  
-💎 [Merch Store](http://tee.pub/lic/qwSlWVBL5zc)  
-🐛 [Bug reports & issues](https://github.com/nunocoracao/blowfish/issues)  
-💡 [Questions & feature requests](https://github.com/nunocoracao/blowfish/discussions)
+## 🚀 快速開始
 
+### 環境需求
 
+- **Hugo** 0.141.0 - 0.150.0+ (推薦 0.150.1+extended)
+- **Node.js** 18+ (用於 CSS 構建)
+- **Git** (用於版本控制)
 
-<a href="https://www.buymeacoffee.com/nunocoracao" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-<a target="_blank" href="http://tee.pub/lic/qwSlWVBL5zc"><img class="nozoom" src="https://img.buymeacoffee.com/button-api/?text=Merch Store &emoji=💎&slug=nunocoracao&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
+### 本地開發
 
+```bash
+# 1. 安裝依賴
+npm install
 
+# 2. 構建 CSS
+npm run build
 
-## Features
-
-- Fully responsive layout built with Tailwind CSS 3.0
-- Multiple colour schemes (or fully customise your own)
-- Dark mode (forced on/off or auto-switching with user toggle)
-- Highly customisable configuration
-- Firebase integration to support dynamic data
-- Views count & like mechanism
-- Related articles
-- Multiple homepage layouts
-- Multiple authors
-- Series of articles
-- Date and weight based article sorting
-- Zen mode for article reading
-- Flexible with any content types, taxonomies and menus
-- Header and footer menus
-- Nested menus & sub-navigation menu
-- Scrollable table of contents
-- Multilingual content support including support for RTL languages
-- Ability to link to posts on third-party websites
-- Support for several shortcodes like Gallery, Timeline, GitHub cards, and Carousels
-- Buymeacoffee integration
-- Client-side site search powered by Fuse.js
-- Diagrams and visualisations using Mermaid
-- Charts using Chart.js
-- TypeIt integration
-- Youtube embeds with performance improvements
-- Mathematical notation using KaTeX
-- SVG icons from FontAwesome 6
-- Automatic image resizing using Hugo Pipes
-- Heading anchors, Tables of Contents, Code copy, Buttons, Badges and more
-- HTML and Emoji support in articles 🎉
-- SEO friendly with links for sharing to social media
-- Fathom Analytics and Google Analytics support
-- RSS feeds, Favicons and comments support
-- Advanced customisation using simple Tailwind colour definitions and styles
-- Optimised for performance and accessibility with perfect Lighthouse scores
-- Fully documented with regular updates
-
----
-
-![blowfish logo](https://github.com/nunocoracao/blowfish/blob/main/logo.png?raw=true)
-
-## Documentation
-
-Blowfish has [extensive documentation](https://blowfish.page/docs/) that covers all aspects of the theme. Be sure to [read the docs](https://blowfish.page/docs/) to learn more about how to use the theme and its features.
-
----
-
-## Installation
-
-Blowfish supports several installation methods - as a git submodule, a Hugo Module, or as a completely manual install.
-
-Detailed instructions for each method can be found in the [Installation](https://blowfish.page/docs/installation) docs. You should consult the documentation for the simplest setup experience. Below is a quick start guide using submodules if you are using git, or Hugo modules if you're already confident installing Hugo themes.
-
-### Quick start using Blowfish Tools
-
-> **Note:** Ensure you have **Node.js**, **Git**, **Go** and **Hugo** installed, and that you have created a new Hugo project before proceeding.
-
-We just launched a new CLI tool to help you get started with Blowfish. It will create a new Hugo project, install the theme and set up the theme configuration files for you. It's still in beta so please [report any issues you find](https://github.com/nunocoracao/blowfish-tools).
-
-Install the CLI tool globally using npm (or other package manager):
-```shell
-npm i -g blowfish-tools
+# 3. 啟動開發伺服器
+npm run example
 ```
 
-Then run the command `blowfish-tools` to start an interactive run which will guide you through creation and configuration use-cases.
-```shell
-blowfish-tools
+訪問 http://localhost:1313 查看網站。
+
+### 常用命令
+
+```bash
+# CSS 構建
+npm run build      # 生產模式構建 CSS
+npm run dev        # 開發模式監控文件變化
+
+# Hugo 服務器
+npm run example            # 開發模式（推薦）
+npm run example:core       # 快速測試模式
+npm run example:production # 生產模式預覽
+
+# 工具
+npm run lighthouse   # 執行效能測試
+npm run assets       # 重新複製第三方庫
 ```
 
-You can also run the command `blowfish-tools new` to create a new Hugo project and install the theme in one go. Check the CLI help for more information.
-```shell
-blowfish-tools new mynewsite
+## 📁 專案結構
+
+```
+├── exampleSite/          # 示例網站內容
+│   ├── config/          # Hugo 配置文件
+│   ├── content/         # 網站內容（僅中文）
+│   └── static/          # 靜態資源
+├── assets/              # 主題資源
+│   ├── css/            # 樣式文件
+│   ├── js/             # JavaScript 文件
+│   └── icons/          # SVG 圖標
+├── layouts/             # Hugo 模板
+├── i18n/               # 國際化（僅中文）
+└── CLAUDE.md           # 開發指南
 ```
 
-### Quick start using git submodules
+## 🌐 網站架構
 
-> **Note:** Ensure you have **Git**, **Go**, and **Hugo** installed, and that you have created a new Hugo project before proceeding.
+### 內容管理
 
-1. From your project directory, initialise git:
+- **協會介紹**：`exampleSite/content/about/_index.zh-cn.md`
+- **協會章程**：`exampleSite/content/about/charter.zh-cn.md`
+- **協會新聞**：`exampleSite/content/news/_index.zh-cn.md`
+- **首頁內容**：`exampleSite/content/_index.zh-cn.md`
 
-   ```shell
-   git init
+### 導航結構
+
+```
+首頁 → 關於協會 → 協會章程 → 協會新聞 → 聯絡我們
+```
+
+### 單語言配置
+
+- **語言**：僅使用繁體中文 (zh-cn)
+- **編碼**：UTF-8
+- **優化**：針對中文顯示特別優化
+
+## 🚀 部署指南
+
+### GitHub + Cloudflare Pages
+
+1. **推送到 GitHub**
+   ```bash
+   git add .
+   git commit -m "🚀 CAIADA 網站更新"
+   git push origin main
    ```
 
-2. Configure Blowfish as a git submodule:
+2. **Cloudflare Pages 配置**
+   - 連接 GitHub 倉庫
+   - 構建命令：`hugo --minify --gc`
+   - 構建輸出目錄：`public`
+   - 根目錄：`exampleSite`
+   - 環境變量：
+     - `HUGO_VERSION`: `0.150.1`
+     - `NODE_VERSION`: `18`
 
-   ```shell
-   git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
-   ```
+3. **性能優化**
+   - 啟用 Auto Minify (HTML, CSS, JS)
+   - 開啟 Brotli 壓縮
+   - 使用 Cache Everything 規則
+   - 啟用 HTTP/3 支援
 
-3. In the root folder of your website, delete the `config.toml` file that was generated by Hugo. Copy the `*.toml` config files from the theme into your `config/_default/` folder.
+## 🛠️ 技術棧
 
-   You will find these theme config files in the Hugo cache directory, or [download a copy](https://github.com/nunocoracao/blowfish/releases/latest/download/config-default.zip) from GitHub.
+- **Hugo** - 靜態網站生成器
+- **Blowfish** - Hugo 主題
+- **Tailwind CSS** - CSS 框架
+- **Fuse.js** - 客戶端搜索
+- **Chart.js** - 圖表支援
+- **Mermaid** - 圖表視覺化
+- **KaTeX** - 數學公式
 
-4. Follow the [Getting Started](https://blowfish.page/docs/getting-started/) instructions to configure your website.
+## 📝 開發指南
 
-### Quick start using Hugo
+詳細的開發指南請參考 [CLAUDE.md](./CLAUDE.md) 文件。
 
-> **Note:** Ensure you have **Go** and **Hugo** installed, and that you have created a new Hugo project before proceeding.
+## 🤝 貢獻指南
 
-1. From your project directory, initialise Hugo Modules:
+1. Fork 本專案
+2. 創建功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交變更 (`git commit -m '✨ Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 開啟 Pull Request
 
-   ```shell
-   hugo mod init github.com/<username>/<repo-name>
-   ```
+## 📄 授權
 
-2. Create `config/_default/module.toml` and add the following:
+本專案基於 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 文件。
 
-   ```toml
-   [[imports]]
-   path = "github.com/nunocoracao/blowfish/v2"
-   ```
+## 🌟 支援
 
-3. Start your server using `hugo server` and the theme will be downloaded automatically.
+如果遇到問題或有建議，請：
 
-4. In the root folder of your website, delete the `hugo.toml` file that was generated by Hugo. Copy the `*.toml` config files from the theme into your `config/_default/` folder.
-
-   > **Note:** Do not overwrite the `module.toml` file you created above!
-   
-   You will find these theme config files in the Hugo cache directory, or [download a copy](https://github.com/nunocoracao/blowfish/releases/latest/download/config-default.zip) from GitHub.
-
-5. Follow the [Getting Started](https://blowfish.page/docs/getting-started/) instructions to configure your website.
-
-### Installing theme updates
-
-As new releases are posted, you can update the theme using Hugo. Simply run `hugo mod get -u` from your project directory and the theme will automatically update to the latest release.
-
-Detailed [update instructions](https://blowfish.page/docs/installation/#installing-updates) are available in the docs.
+- 查看 [CLAUDE.md](./CLAUDE.md) 開發指南
+- 提交 Issue 到 GitHub Issues
+- 聯絡開發團隊
 
 ---
 
-## Contributing
-
-Blowfish is expected to evolve over time. I intend to keep adding features and making changes as required.
-
-Feel free to get in touch with any issues or suggestions for new features you'd like to see.
-
-- 🐛 **Bug reports & issues:** Use [GitHub Issues](https://github.com/nunocoracao/blowfish/issues)
-- 💡 **Ideas for new features:** Open a discussion on [GitHub Discussions](https://github.com/nunocoracao/blowfish/discussions)
-- 🙋‍♀️ **General questions:** Head to [GitHub Discussions](https://github.com/nunocoracao/blowfish/discussions)
-
-If you're able to fix a bug or implement a new feature, I welcome PRs for this purpose. Learn more in the [contributing guidelines](https://github.com/nunocoracao/blowfish/blob/main/CONTRIBUTING.md).
-
----
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/nunocoracao/blowfish.svg)](https://starchart.cc/nunocoracao/blowfish)
-
-<a rel="me" href="https://masto.ai/@blowfish">Mastodon</a>
+**中華AI應用發展協會** - 推動台灣AI產業發展 🚀

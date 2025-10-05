@@ -13,23 +13,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 # 1. 安裝依賴（首次執行）
 npm install
 
-# 2. 構建 CSS
+# 2. 構建 CSS（生產模式）
 npm run build
 
-# 3. 啟動開發伺服器
-cd exampleSite
-hugo server -D -p 1313
+# 3. 啟動開發伺服器（推薦使用）
+npm run example
+# 或手動啟動：
+# cd exampleSite
+# hugo server -D -p 1313
 ```
 
 ### CSS 構建
-- `npm run dev` - 開發模式構建 CSS（監控文件變化）
-- `npm run build` - 生產模式構建 CSS
-- `npm run assets` - 清理並重新複製供應商資產
+- `npm run dev` - 開發模式構建 CSS（監控文件變化，實時重載）
+- `npm run build` - 生產模式構建 CSS（優化壓縮）
+- `npm run assets` - 清理並重新複製第三方庫資產
 
 ### Hugo 伺服器
-- `npm run example` - 啟動示例網站（開發模式，包含未來和過期內容）
-- `npm run example:core` - 僅構建核心功能（用於快速測試）
-- `npm run example:production` - 生產模式示例
+- `npm run example` - 啟動開發伺服器（推薦，包含草稿和未來內容）
+- `npm run example:core` - 快速測試模式（僅構建核心頁面）
+- `npm run example:production` - 生產模式預覽（優化輸出）
 
 ### 其他工具
 - `npm run lighthouse` - 執行 Lighthouse 效能測試
@@ -104,15 +106,13 @@ hugo server -D -p 1313
 ### 協會內容管理
 - **協會介紹**：`exampleSite/content/about/_index.zh-cn.md`
 - **協會章程**：`exampleSite/content/about/charter.zh-cn.md`
-- **會員制度**：`exampleSite/content/membership/_index.zh-cn.md`
-- **活動項目**：`exampleSite/content/activities/_index.zh-cn.md`
 - **協會新聞**：`exampleSite/content/news/_index.zh-cn.md`
 - **首頁內容**：`exampleSite/content/_index.zh-cn.md`
 
 ### 導航菜單配置
 中文導航配置在 `config/_default/menus.zh-cn.toml`：
-- 首頁、關於協會、會員制度、活動項目、協會新聞
-- 支援嵌套菜單結構
+- 首頁、關於協會、協會章程、協會新聞、聯絡我們
+- 平級導航結構，主要功能獨立展示
 - 社交媒體連結配置
 
 ### 測試方法
@@ -122,10 +122,10 @@ hugo server -D -p 1313
 
 ## 常見問題與解決方案
 
-### Hugo 版本警告
-- **現象**：`WARN Module "blowfish" is not compatible with this Hugo version`
-- **原因**：當前使用 Hugo 0.150.1，主題聲明兼容 0.141.0-0.150.0
-- **解決**：可忽略警告，功能完全正常，或等待主題更新兼容性聲明
+### Hugo 版本兼容性
+- **當前版本**：Hugo 0.150.1+extended (推薦)
+- **主題兼容性**：0.141.0 - 0.150.0+ (實際測試 0.150.1 運行良好)
+- **版本警告說明**：`WARN Module "blowfish" is not compatible with this Hugo version` 為兼容性聲明滯後，可安全忽略，功能完全正常
 
 ### Shortcode 錯誤
 - **現象**：`shortcode 'button' must be closed or self-closed`
@@ -141,29 +141,38 @@ hugo server -D -p 1313
 
 ## 重要配置細節
 
-### 主題配置
+### 主題核心配置
 - `colorScheme = "blowfish"` - 預設色彩主題
-- `defaultAppearance = "dark"` - 預設深色模式
-- `mainSections = []` - 禁用首頁文章顯示（專案特別配置）
-- `enableSearch = true` - 啟用搜索功能
-- `enableCodeCopy = true` - 啟用代碼複製
+- `defaultAppearance = "dark"` - 預設深色模式，支援自動切換
+- `mainSections = []` - 禁用首頁文章顯示（協會網站特別配置）
+- `enableSearch = true` - 啟用全站搜索功能
+- `enableCodeCopy = true` - 啟用代碼複製功能
+- `hasCJKLanguage = true` - 啟用中日韓文字支持
+- `defaultContentLanguage = "zh-cn"` - 設置中文為預設語言
 
-### 多語言支援
-主要語言為繁體中文（zh-cn），支援英文切換：
-- `config/_default/languages.zh-cn.toml` - 中文語言配置
-- `config/_default/languages.en.toml` - 英文語言配置
-- 內容對應 `content/_index.zh-cn.md` 和 `_index.en.md`
+### 單語言架構
+僅使用繁體中文（zh-cn），簡化網站結構：
+- **配置文件**：`config/_default/languages.zh-cn.toml`
+- **內容結構**：所有頁面使用 `.zh-cn.md` 文件
+- **導航菜單**：`config/_default/menus.zh-cn.toml`
+- **國際化**：僅保留 `i18n/zh-CN.yaml` 翻譯文件
 
-### 版本兼容性
-- Hugo: 0.141.0 - 0.150.0+ (當前使用 0.150.1)
-- 版本警告不影響功能，是兼容性聲明滯後導致
-- Node.js: 用於 Tailwind CSS 構建
+### 第三方庫集成
+自動構建系統會複製以下第三方庫至 `assets/lib/`：
+- **Chart.js** - 圖表視覺化
+- **Mermaid** - 流程圖和圖表
+- **KaTeX** - 數學公式渲染
+- **Fuse.js** - 客戶端搜索
+- **TypeIt** - 打字動畫效果
+- **jQuery** - DOM 操作（精簡版）
 
 ### 協會網站特別配置
-- **首頁設置**：採用 custom 布局，禁用文章列表顯示
-- **導航結構**：包含首頁、關於協會、會員制度、活動項目、協會新聞等
-- **協會新聞頁面**：使用 list 布局，顯示 docs 區段的技術文檔
-- **語言偏好**：設置中文為預設語言 (`defaultContentLanguage = "zh-cn"`)
+- **首頁佈局**：custom 模式，不顯示文章列表，突出協會介紹
+- **響應式設計**：支援手機、平板、桌面全適配
+- **深色模式**：預設深色主題，提供明暗切換
+- **中文優化**：針對中文顯示優化字體和間距
+- **極簡導航**：移除活動項目和會員制度，保持網站結構最簡潔
+- **單語言**：僅保留中文版本，移除多語言切換功能
 
 ## 部署指南
 
@@ -175,66 +184,44 @@ hugo server -D -p 1313
 - GitHub 整合，自動部署
 - PR 預覽和一鍵回滾
 
-**部署步驟：**
+**快速部署步驟：**
 
-1. **準備生產配置**
-   ```bash
-   # 創建生產環境配置
-   mkdir -p exampleSite/config/production
-   cat > exampleSite/config/production/hugo.toml << 'EOF'
-   baseURL = "https://your-domain.pages.dev"
-   EOF
-   ```
-
-2. **推送到 GitHub**
+1. **推送到 GitHub**
    ```bash
    git add .
-   git commit -m "🚀 準備 CF Pages 部署"
+   git commit -m "🚀 CAIADA 網站更新"
    git push origin main
    ```
 
-3. **Cloudflare Pages 設置**
-   - 登錄 Cloudflare Dashboard
-   - Pages > 創建項目 > 連接 GitHub
-   - 構建配置：
-     ```
-     框架預設: Hugo
-     構建命令: hugo --minify --gc
-     構建輸出目錄: public
-     根目錄: exampleSite
-     環境變量: HUGO_VERSION=0.150.1
-     ```
+2. **Cloudflare Pages 配置**
+   - 連接 GitHub 倉庫
+   - **構建設置**：
+     - 框架：Hugo
+     - 構建命令：`hugo --minify --gc`
+     - 構建輸出目錄：`public`
+     - 根目錄：`exampleSite`
+   - **環境變量**：
+     - `HUGO_VERSION`: `0.150.1`
+     - `NODE_VERSION`: `18`
 
-4. **部署配置**
-   ```bash
-   # 可選：添加 _redirects 文件處理單頁應用
-   echo "/*    /index.html   200" > exampleSite/static/_redirects
-   ```
+**部署優化配置：**
+- ✅ 啟用 Auto Minify (HTML, CSS, JS)
+- ✅ 開啟 Brotli 壓縮
+- ✅ 使用 Cache Everything 規則（靜態資源）
+- ✅ 啟用 HTTP/3 支援
+- ✅ 設置中文編碼標頭：`charset=utf-8`
 
-**環境變量設置：**
-- `HUGO_VERSION`: `0.150.1`
-- `NODE_VERSION`: `18` (如需構建 CSS)
+**GitHub + Cloudflare Pages 優勢：**
+- 無需複雜的 GitHub Actions 配置
+- 自動從 GitHub 倉庫拉取代碼
+- 構建失敗自動回滾
+- 免費 SSL 證書和全球 CDN
 
-**性能優化：**
-- 啟用 Auto Minify (HTML, CSS, JS)
-- 開啟 Brotli 壓縮
-- 使用 Cache Everything 規則
-- 啟用 HTTP/3 支援
+**部署後驗證清單：**
+- [ ] 中文內容正確顯示，無亂碼
+- [ ] 導航菜單所有鏈接正常工作
+- [ ] 多語言切換功能正常
+- [ ] 搜索功能正常運作
+- [ ] 深色模式切換正常
+- [ ] 移動端響應式適配
 
-**協會網站部署注意事項：**
-- 確保中文內容正確顯示
-- 驗證導航菜單所有鏈接正常工作
-- 測試多語言切換功能
-- 檢查表單和聯絡方式
-
-### 其他部署選項
-
-**GitHub Pages：**
-- 免費但僅限公開倉庫
-- 無需第三方服務
-- 需要手動設置 GitHub Actions
-
-**Netlify：**
-- 優秀的 CI/CD 整合
-- 免費額度限制較小
-- 表單和函數支援
