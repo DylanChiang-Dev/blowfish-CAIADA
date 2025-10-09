@@ -1,0 +1,19 @@
+languageCode = "vi"
+languageName = "Tiếng Việt"
+weight = 4
+title = "Hiệp hội Phát triển Ứng dụng AI Trung Hoa"
+
+[params]
+  displayName = "Tiếng Việt"
+  isoCode = "vi"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "Thúc đẩy phát triển công nghệ trí tuệ nhân tạo và ứng dụng công nghiệp"
+
+[params.author]
+  name = "Hiệp hội Phát triển Ứng dụng AI Trung Hoa"
+  image = "img/blowfish_logo.png"
+  headline = "Thúc đẩy phát triển công nghệ trí tuệ nhân tạo và ứng dụng công nghiệp"
+  bio = "Hiệp hội Phát triển Ứng dụng AI Trung Hoa cam kết trở thành động lực quan trọng cho sự phát triển ngành AI của Đài Loan, thúc đẩy đổi mới và tăng trưởng bền vững trong xã hội thông minh."
+  links = []
