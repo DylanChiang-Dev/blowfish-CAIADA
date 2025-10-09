@@ -1,0 +1,27 @@
+# -- Main Menu --
+# Cấu hình menu chính của Hiệp hội Phát triển Ứng dụng AI Trung Hoa
+
+[[main]]
+  name = "Trang chủ"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Về hiệp hội"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Điều lệ hiệp hội"
+  pageRef = "about/charter"
+  weight = 25
+
+[[main]]
+  name = "Tin tức hiệp hội"
+  pageRef = "news"
+  weight = 45
+
+[[main]]
+  name = "Liên hệ chúng tôi"
+  pageRef = "about"
+  weight = 50

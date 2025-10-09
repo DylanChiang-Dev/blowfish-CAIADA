@@ -22,6 +22,10 @@ defaultContentLanguageInSubdir = false
     weight = 3
     languageCode = "en"
     languageName = "English"
+  [languages.vi]
+    weight = 4
+    languageCode = "vi"
+    languageName = "Tiếng Việt"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
