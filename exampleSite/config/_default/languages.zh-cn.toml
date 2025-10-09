@@ -1,7 +1,7 @@
 languageCode = "zh-cn"
 languageName = "简体中文"
 weight = 4
-title = "中華AI應用發展協會"
+title = "中华AI应用发展协会"
 
 [params]
   displayName = "简体中文"
@@ -9,11 +9,11 @@ title = "中華AI應用發展協會"
   rtl = false
   dateFormat = "2006-01-02"
   logo = "img/blowfish_logo_transparent.png"
-  description = "中華AI應用發展協會官網"
+  description = "中华AI应用发展协会官网"
 
 [params.author]
-  name = "中華AI應用發展協會"
+  name = "中华AI应用发展协会"
   image = "img/blowfish_logo.png"
-  headline = "促進人工智慧技術發展與產業應用"
-  bio = "中華AI應用發展協會致力於成為台灣AI產業發展的重要推手"
+  headline = "促进人工智能技术发展与产业应用"
+  bio = "中华AI应用发展协会致力于成为台湾AI产业发展的重要推手"
   links = []

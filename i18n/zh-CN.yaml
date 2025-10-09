@@ -26,7 +26,7 @@ article:
   this_article: "本文"
   related_articles: "相关文章"
   zen_mode_title:
-    enable: "啟用阅读模式"
+    enable: "启用阅读模式"
     disable: "停用阅读模式"
 
 a11y:

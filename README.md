@@ -72,14 +72,14 @@ npm run assets       # 重新複製第三方庫
 ### 內容管理
 
 - **協會介紹**：`exampleSite/content/about/_index.zh-cn.md`
-- **協會章程**：`exampleSite/content/about/charter.zh-cn.md`
-- **協會新聞**：`exampleSite/content/news/_index.zh-cn.md`
-- **首頁內容**：`exampleSite/content/_index.zh-cn.md`
+- **协会章程**：`exampleSite/content/about/charter.zh-cn.md`
+- **协会新闻**：`exampleSite/content/news/_index.zh-cn.md`
+- **首页内容**：`exampleSite/content/_index.zh-cn.md`
 
 ### 導航結構
 
 ```
-首頁 → 關於協會 → 協會章程 → 協會新聞 → 聯絡我們
+首页 → 关于协会 → 协会章程 → 协会新闻 → 联络我们
 ```
 
 ### 單語言配置
