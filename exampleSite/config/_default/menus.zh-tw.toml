@@ -1,0 +1,40 @@
+[[main]]
+  name = "首頁"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "關於協會"
+  pageRef = "/about/"
+  weight = 20
+
+[[main]]
+  name = "協會章程"
+  pageRef = "/about/charter/"
+  weight = 30
+
+[[main]]
+  name = "協會新聞"
+  pageRef = "/news/"
+  weight = 40
+
+[[main]]
+  name = "聯絡我們"
+  pageRef = "/contact/"
+  weight = 50
+
+# 頁腳菜單
+[[footer]]
+  name = "關於我們"
+  pageRef = "/about/"
+  weight = 10
+
+[[footer]]
+  name = "協會章程"
+  pageRef = "/about/charter/"
+  weight = 20
+
+[[footer]]
+  name = "聯絡我們"
+  pageRef = "/contact/"
+  weight = 30

@@ -1,0 +1,19 @@
+languageCode = "zh-tw"
+languageName = "繁體中文"
+weight = 2
+title = "中華AI應用發展協會"
+
+[params]
+  displayName = "繁體中文"
+  isoCode = "zh-tw"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "中華AI應用發展協會官網"
+
+[params.author]
+  name = "中華AI應用發展協會"
+  image = "img/blowfish_logo.png"
+  headline = "促進人工智慧技術發展與產業應用"
+  bio = "中華AI應用發展協會致力於成為台灣AI產業發展的重要推手"
+  links = []
