@@ -1,0 +1,102 @@
+# English translation file
+# Global
+global:
+  language: "English"
+  language_select_title: "Select Language"
+  language_select_aria_label: "Select Language"
+
+# Article related
+article:
+  anchor_label: "Anchor"
+  date: "{{ .Date }}"
+  date_updated: "Updated {{ .Date }}"
+  draft: "Draft"
+  edit_title: "Edit Content"
+  reading_time: "{{ .Count }} min read"
+  reading_time_one: "1 min read"
+  table_of_contents: "Table of Contents"
+  word_count: "{{ .Count }} words"
+  word_count_one: "1 word"
+  view_comments: "View Comments"
+
+# Accessibility
+a11y:
+  skip_to_main: "Skip to main content"
+
+# Author related
+author:
+  byline_title: "About"
+  comment_title: "Comments"
+  website: "Website"
+
+# Code related
+code:
+  copy: "Copy"
+  copied: "Copied"
+  copy_to_clipboard: "Copy to clipboard"
+  max_lines: "Max lines"
+  show_more: "Show more"
+  show_less: "Show less"
+
+# Error pages
+error:
+  404_title: "Page not found :confused_face:"
+  404_error: "Error 404"
+  404_description: "The page you are looking for doesn't seem to exist."
+
+# Footer
+footer:
+  dark_appearance: "Toggle dark mode"
+  light_appearance: "Toggle light mode"
+  powered_by: "Powered by {{ .Hugo }} & {{ .Theme }}"
+
+# Header
+header:
+  menu_title: "Menu"
+
+# List pages
+list:
+  externalurl_title: "External Link"
+  no_articles: "No articles published here yet."
+
+# Navigation
+nav:
+  scroll_to_top_title: "Back to top"
+  skip_to_main: "Skip to main content"
+
+# Search
+search:
+  loading: "Loading..."
+  no_results: "No results found"
+  placeholder: "Search..."
+  results_title: "Search Results"
+
+# Sharing
+sharing:
+  email: "Share via email"
+  facebook: "Share on Facebook"
+  linkedin: "Share on LinkedIn"
+  pinterest: "Share on Pinterest"
+  reddit: "Share on Reddit"
+  twitter: "Share on Twitter"
+  whatsapp: "Share via WhatsApp"
+
+# Shortcodes
+shortcode:
+  recent_articles: "Recent Articles"
+
+# Series
+series:
+  part_of: "This is part of the {{ .SeriesTitle }} series"
+  other_parts: "Other parts in this series:"
+
+# Tag cloud
+tag:
+  one: "1 article"
+  other: "{{ .Count }} articles"
+
+# Taxonomy
+taxonomy:
+  articles: "Articles"
+  categories: "Categories"
+  tags: "Tags"

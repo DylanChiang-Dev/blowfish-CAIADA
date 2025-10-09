@@ -1,0 +1,19 @@
+languageCode = "en"
+languageName = "English"
+weight = 3
+title = "Chinese AI Application Development Association"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "Promoting artificial intelligence technology development and industrial applications"
+
+[params.author]
+  name = "Chinese AI Application Development Association"
+  image = "img/blowfish_logo.png"
+  headline = "Promoting artificial intelligence technology development and industrial applications"
+  bio = "The Chinese AI Application Development Association is committed to becoming an important driving force for Taiwan's AI industry development, fostering innovation and sustainable growth in the intelligent society."
+  links = []
