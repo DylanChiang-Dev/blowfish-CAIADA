@@ -6,6 +6,57 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 这是一个基于 Blowfish Hugo 主题的中华AI应用发展协会（CAIADA）官方网站项目，为台湾AI产业发展协会提供专业的线上展示平台。
 
+# Blowfish CAIADA 項目開發記錄
+
+## 項目概述
+基於 Hugo Blowfish 主題開發的中華AI應用發展協會官方網站。
+
+## 版本記錄
+
+### v0.1.0 (2024-12-19)
+**完成繁體字轉簡體字轉換**
+
+#### 主要更改：
+1. **配置文件轉換**
+   - `i18n/zh-CN.yaml`: 轉換所有界面文字為簡體中文
+   - `exampleSite/config/_default/languages.zh-cn.toml`: 更新語言配置
+   - `exampleSite/config/_default/menus.zh-cn.toml`: 轉換導航菜單文字
+   - `exampleSite/config/_default/hugo.toml`: 設置默認語言為簡體中文
+
+2. **內容文件轉換**
+   - 批量轉換所有 `.zh-cn.md` 文件中的繁體字為簡體字
+   - 特別修復協會章程頁面 (`about/charter.zh-cn.md`) 的繁體字問題
+   - 轉換常見繁體字：會→会、協會→协会、應用→应用、發展→发展等
+
+3. **文件清理**
+   - 移除所有英文版本文件 (`.en.md`)
+   - 專注於中文版本的維護
+
+4. **技術細節**
+   - 使用 `sed` 命令進行批量字符轉換
+   - 重新生成網站以更新 public 目錄
+   - 確保所有頁面正確顯示簡體中文
+
+#### 解決的問題：
+- ✅ 網站界面完全轉換為簡體中文
+- ✅ 導航菜單顯示簡體中文
+- ✅ 協會章程頁面繁體字問題
+- ✅ 所有內容頁面的繁體字轉換
+
+#### 技術方案：
+使用高效的 `sed` 批量轉換方法，避免逐個文件處理的複雜性。
+
+---
+
+## 開發環境
+- Hugo v0.150.1+extended
+- Node.js 環境
+- Blowfish 主題
+
+## 部署信息
+- 本地開發服務器：http://localhost:1314
+- GitHub 倉庫：https://github.com/DylanChiang-Dev/blowfish-CAIADA.git
+
 ## 开发命令
 
 ### 快速启动开发环境

@@ -1,0 +1,102 @@
+# 繁體中文翻譯文件
+# Global
+global:
+  language: "繁體中文"
+  language_select_title: "選擇語言"
+  language_select_aria_label: "選擇語言"
+
+# 文章相關
+article:
+  anchor_label: "錨點"
+  date: "{{ .Date }}"
+  date_updated: "更新於 {{ .Date }}"
+  draft: "草稿"
+  edit_title: "編輯內容"
+  reading_time: "{{ .Count }} 分鐘"
+  reading_time_one: "1 分鐘"
+  table_of_contents: "目錄"
+  word_count: "{{ .Count }} 字"
+  word_count_one: "1 字"
+  view_comments: "查看評論"
+
+# 無障礙功能
+a11y:
+  skip_to_main: "跳到主要內容"
+
+# 作者相關
+author:
+  byline_title: "關於"
+  comment_title: "評論"
+  website: "網站"
+
+# 代碼相關
+code:
+  copy: "複製"
+  copied: "已複製"
+  copy_to_clipboard: "複製到剪貼板"
+  max_lines: "最大行數"
+  show_more: "顯示更多"
+  show_less: "顯示較少"
+
+# 錯誤頁面
+error:
+  404_title: "頁面未找到 :confused_face:"
+  404_error: "錯誤 404"
+  404_description: "您要找的頁面似乎不存在。"
+
+# 頁腳
+footer:
+  dark_appearance: "切換深色模式"
+  light_appearance: "切換淺色模式"
+  powered_by: "由 {{ .Hugo }} 和 {{ .Theme }} 驅動"
+
+# 頁首
+header:
+  menu_title: "菜單"
+
+# 列表頁面
+list:
+  externalurl_title: "外部連結"
+  no_articles: "這裡還沒有文章發布。"
+
+# 導航
+nav:
+  scroll_to_top_title: "回到頂部"
+  skip_to_main: "跳到主要內容"
+
+# 搜索
+search:
+  loading: "載入中..."
+  no_results: "沒有找到結果"
+  placeholder: "搜索..."
+  results_title: "搜索結果"
+
+# 分享
+sharing:
+  email: "透過電子郵件分享"
+  facebook: "在 Facebook 上分享"
+  linkedin: "在 LinkedIn 上分享"
+  pinterest: "在 Pinterest 上分享"
+  reddit: "在 Reddit 上分享"
+  twitter: "在 Twitter 上分享"
+  whatsapp: "透過 WhatsApp 分享"
+
+# 標籤
+shortcode:
+  recent_articles: "最新文章"
+
+# 系列
+series:
+  part_of: "這是 {{ .SeriesTitle }} 系列的一部分"
+  other_parts: "本系列的其他部分："
+
+# 標籤雲
+tag:
+  one: "1 篇文章"
+  other: "{{ .Count }} 篇文章"
+
+# 分類法
+taxonomy:
+  articles: "文章"
+  categories: "分類"
+  tags: "標籤"

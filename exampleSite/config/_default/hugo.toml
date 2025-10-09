@@ -5,7 +5,19 @@
 theme = "blowfish"
 baseURL = "https://localhost:1313"
 defaultContentLanguage = "zh-cn"
-disableLanguages = [] #to allow translation work requiring shipping to production
+defaultContentLanguageInSubdir = false
+disableLanguages = ["en"] #to allow translation work requiring shipping to production
+
+# 多語言配置
+[languages]
+  [languages.zh-cn]
+    weight = 1
+    languageCode = "zh-cn"
+    languageName = "简体中文"
+  [languages.zh-tw]
+    weight = 2
+    languageCode = "zh-tw"
+    languageName = "繁體中文"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
