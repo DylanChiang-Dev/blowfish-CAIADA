@@ -1,29 +1,29 @@
 # -- Main Menu --
-# 中華AI應用發展協會主選單配置
+# 中华AI应用发展协会主选单配置
 
 [[main]]
-  name = "首頁"
+  name = "首页"
   pageRef = "/"
   weight = 10
 
 [[main]]
-  name = "關於協會"
+  name = "关于协会"
   pageRef = "about"
   weight = 20
 
 [[main]]
-  name = "協會章程"
+  name = "协会章程"
   pageRef = "about/charter"
   weight = 25
 
 
 
 [[main]]
-  name = "協會新聞"
+  name = "协会新闻"
   pageRef = "news"
   weight = 45
 
 [[main]]
-  name = "聯絡我們"
+  name = "联络我们"
   pageRef = "about"
   weight = 50

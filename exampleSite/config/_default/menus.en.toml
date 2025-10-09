@@ -1,30 +1,56 @@
 # -- Main Menu --
-# Chinese AI Application Development Association Main Menu Configuration
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Home"
-  pageRef = "/"
+  name = "Docs"
+  pageRef = "docs"
   weight = 10
 
 [[main]]
-  name = "About Association"
-  pageRef = "about"
+  name = "Shortcodes"
+  pageRef = "docs/shortcodes"
+  weight = 15
+
+[[main]]
+  name = "Examples"
   weight = 20
 
 [[main]]
-  name = "Association Charter"
-  pageRef = "about/charter"
-  weight = 25
+  name = "Samples"
+  parent = "Examples"
+  pageRef = "samples"
+  weight = 16
 
 [[main]]
-  name = "Association News"
-  pageRef = "news"
-  weight = 45
+  name = "Showcase"
+  parent = "Examples"
+  pageRef = "examples"
+  weight = 30
 
 [[main]]
-  name = "Contact Us"
-  pageRef = "about"
-  weight = 50
+  name = "Recipes"
+  parent = "Examples"
+  pageRef = "guides"
+  weight = 40
+
+[[main]]
+  name = "Users"
+  pageRef = "users"
+  weight = 90
+
+[[main]]
+  name = "Merch"
+  url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
+  weight = 100
 
 #[[main]]
 #  name = "Test"
