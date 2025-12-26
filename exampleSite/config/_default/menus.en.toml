@@ -22,11 +22,6 @@
   weight = 40
 
 [[main]]
-  name = "Contact Us"
-  pageRef = "/contact/"
-  weight = 50
-
-[[main]]
   name = "Membership"
   pageRef = "/membership/"
   weight = 60
@@ -44,8 +39,3 @@
   name = "Association Charter"
   pageRef = "/about/charter/"
   weight = 20
-
-[[footer]]
-  name = "Contact Us"
-  pageRef = "/contact/"
-  weight = 30

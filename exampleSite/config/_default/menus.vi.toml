@@ -20,8 +20,3 @@
   name = "Tin tức hiệp hội"
   pageRef = "news"
   weight = 45
-
-[[main]]
-  name = "Liên hệ chúng tôi"
-  pageRef = "about"
-  weight = 50

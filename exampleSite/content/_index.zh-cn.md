@@ -31,18 +31,47 @@ description: "促进人工智能技术发展与产业应用，推动智能化社
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-🎓
+📚
 <h3 class="text-xl font-bold mb-2">人才培育与教育</h3>
-<p>AI技术人才培育与教育推广，为产业注入新血与活力。</p>
+<p>AI专业人才培育与教育推广，提升产业竞争力与创新能力。</p>
 </div>
 
 </div>
 
 ---
 
-## 📈 会员招募
+## 📈 发展重点
 
-加入CAIADA，与台湾AI领域的专家、学者和业界领袖共同推动产业发展。
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
 
-<a href="membership/" class="inline-block !rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">了解会员制度</a>
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-3">技术创新</h3>
+<ul class="list-none space-y-2 text-sm pl-0">
+  <li>机器学习与深度学习技术研发</li>
+  <li>自然语言处理与计算机视觉应用</li>
+  <li>边缘运算与物联网整合</li>
+  <li>区块链与AI融合应用</li>
+</ul>
+</div>
 
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-3">产业应用</h3>
+<ul class="list-none space-y-2 text-sm pl-0">
+  <li>智能制造与工业4.0</li>
+  <li>智慧医疗与健康照护</li>
+  <li>智慧金融与风险管理</li>
+  <li>智慧城市与永续发展</li>
+</ul>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-3">人才发展</h3>
+<ul class="list-none space-y-2 text-sm pl-0">
+  <li>AI专业课程设计与认证</li>
+  <li>产学合作与实习计划</li>
+  <li>国际交流与技术移转</li>
+  <li>创业辅导与投资媒合</li>
+</ul>
+</div>
+
+</div>

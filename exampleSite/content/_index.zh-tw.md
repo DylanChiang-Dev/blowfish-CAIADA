@@ -42,20 +42,36 @@ description: "促進人工智慧技術發展與產業應用，推動智慧化社
 
 ## 📈 發展重點
 
-### 技術創新
-- 機器學習與深度學習技術研發
-- 自然語言處理與電腦視覺應用
-- 邊緣運算與物聯網整合
-- 區塊鏈與AI融合應用
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
 
-### 產業應用
-- 智慧製造與工業4.0
-- 智慧醫療與健康照護
-- 智慧金融與風險管理
-- 智慧城市與永續發展
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-3">技術創新</h3>
+<ul class="list-none space-y-2 text-sm pl-0">
+  <li>機器學習與深度學習技術研發</li>
+  <li>自然語言處理與電腦視覺應用</li>
+  <li>邊緣運算與物聯網整合</li>
+  <li>區塊鏈與AI融合應用</li>
+</ul>
+</div>
 
-### 人才發展
-- AI專業課程設計與認證
-- 產學合作與實習計畫
-- 國際交流與技術移轉
-- 創業輔導與投資媒合
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-3">產業應用</h3>
+<ul class="list-none space-y-2 text-sm pl-0">
+  <li>智慧製造與工業4.0</li>
+  <li>智慧醫療與健康照護</li>
+  <li>智慧金融與風險管理</li>
+  <li>智慧城市與永續發展</li>
+</ul>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-3">人才發展</h3>
+<ul class="list-none space-y-2 text-sm pl-0">
+  <li>AI專業課程設計與認證</li>
+  <li>產學合作與實習計畫</li>
+  <li>國際交流與技術移轉</li>
+  <li>創業輔導與投資媒合</li>
+</ul>
+</div>
+
+</div>

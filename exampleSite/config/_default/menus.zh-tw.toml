@@ -18,11 +18,6 @@
   pageRef = "/news/"
   weight = 40
 
-[[main]]
-  name = "聯絡我們"
-  pageRef = "/contact/"
-  weight = 50
-
 # 頁腳菜單
 [[footer]]
   name = "關於我們"
@@ -33,8 +28,3 @@
   name = "協會章程"
   pageRef = "/about/charter/"
   weight = 20
-
-[[footer]]
-  name = "聯絡我們"
-  pageRef = "/contact/"
-  weight = 30

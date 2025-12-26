@@ -25,7 +25,28 @@ Chinese AI Application Development Association
 
 ## 📊 協會架構
 
-本會設有完整的治理架構：
+本會設有完整的治理架構，由專業的領導團隊負責推動協會發展：
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
+
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
+<img src="images/chairman.png" alt="理事長" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
+<h3 class="text-xl font-bold mb-1">蔣濤</h3>
+<p class="text-primary-600 dark:text-primary-400 font-medium mb-2">理事長</p>
+<p class="text-sm text-neutral-600 dark:text-neutral-400">負責領導協會發展方向，推動AI產業創新與國際合作</p>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
+<img src="images/secretary.png" alt="秘書長" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
+<h3 class="text-xl font-bold mb-1">（待定）</h3>
+<p class="text-primary-600 dark:text-primary-400 font-medium mb-2">秘書長</p>
+<p class="text-sm text-neutral-600 dark:text-neutral-400">負責日常營運與會務推動，統籌協會各項業務執行</p>
+</div>
+
+</div>
+
+### 組織架構
+
 - **理事會**：9位理事（含2位常務理事）
 - **監事會**：3位監事（含1位常務監事）
 - **秘書處**：負責日常營運與會務推動
