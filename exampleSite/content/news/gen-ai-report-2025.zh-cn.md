@@ -8,6 +8,7 @@ categories: ["技术文档"]
 showAuthor: false
 showHero: true
 heroStyle: "big"
+featureimage: "img/news/cnnic_ai_report_2025_cover.png"
 ---
 
 ## 前言
