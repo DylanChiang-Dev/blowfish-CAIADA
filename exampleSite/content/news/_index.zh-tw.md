@@ -4,6 +4,5 @@ description: "中華AI應用發展協會最新動態與技術文檔 - 包含技�
 date: 2024-01-01T00:00:00Z
 draft: false
 layout: "list"
+cardView: false
 ---
-
-{{< list where="Section" value="news" limit=50 cardView=true >}}
