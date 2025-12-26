@@ -4,6 +4,5 @@ description: "Cập nhật tin tức và hoạt động mới nhất của Hiệ
 date: 2024-01-01T00:00:00Z
 draft: false
 layout: "list"
+cardView: false
 ---
-
-{{< list where="Section" value="news" limit=50 cardView=true >}}
