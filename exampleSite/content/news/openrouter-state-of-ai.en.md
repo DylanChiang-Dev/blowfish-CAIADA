@@ -8,6 +8,7 @@ categories: ["Technical Documents"]
 showAuthor: false
 showHero: true
 heroStyle: "big"
+featureimage: "img/news/openrouter_state_of_ai_2024_cover.png"
 ---
 
 ## Foreword
