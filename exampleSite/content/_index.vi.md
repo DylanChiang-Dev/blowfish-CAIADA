@@ -21,7 +21,7 @@ Hiệp hội Phát triển Ứng dụng AI Trung Hoa (CAIADA) cam kết trở th
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
 🧠
 <h3 class="text-xl font-bold mb-2">Nghiên cứu và Phát triển Công nghệ</h3>
-<p>Nghiên cứu phát triển công nghệ cốt lõi trí tuệ nhân tạo và thúc đẩy ứng dụng liên ngành, thúc đẩy đổi mới và thực hành công nghệ.</p>
+<p>Nghiên cứu phát triển công nghệ cốt lõi AI và thúc đẩy ứng dụng liên ngành, thúc đẩy đổi mới và thực hành công nghệ.</p>
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
@@ -33,26 +33,45 @@ Hiệp hội Phát triển Ứng dụng AI Trung Hoa (CAIADA) cam kết trở th
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
 📚
 <h3 class="text-xl font-bold mb-2">Giáo dục và Đào tạo</h3>
-<p>Đào tạo nhân tài AI và phổ biến kiến thức, nâng cao năng lực cạnh tranh của ngành.</p>
+<p>Đào tạo nhân tài AI và phổ biến kiến thức, nâng cao năng lực cạnh tranh và đổi mới của ngành.</p>
 </div>
 
 </div>
-
-## 🎯 Tầm nhìn
-
-Trở thành tổ chức hàng đầu trong việc thúc đẩy phát triển AI tại Đài Loan, dẫn dắt đổi mới công nghệ và ứng dụng, xây dựng xã hội thông minh bền vững.
-
-## 📈 Thành tựu
-
-- **500+** thành viên từ các lĩnh vực khác nhau
-- **50+** dự án hợp tác thành công
-- **20+** sự kiện học thuật và công nghiệp hàng năm
-- **10+** quan hệ đối tác quốc tế
 
 ---
 
-<div class="text-center my-12">
-<h2 class="text-2xl font-bold mb-4">Tham gia cùng chúng tôi</h2>
-<p class="text-lg mb-6">Cùng nhau xây dựng tương lai AI của Đài Loan</p>
-<a href="membership/" class="inline-block !rounded-md bg-primary-600 px-6 py-3 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 text-lg font-semibold">Đăng ký thành viên</a>
+## 📈 Trọng tâm Phát triển
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
+
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-3">Đổi mới Công nghệ</h3>
+<ul class="list-none space-y-2 text-sm pl-0">
+  <li>Nghiên cứu Machine Learning và Deep Learning</li>
+  <li>Xử lý Ngôn ngữ Tự nhiên và Thị giác Máy tính</li>
+  <li>Điện toán Biên và Tích hợp IoT</li>
+  <li>Ứng dụng Blockchain và AI</li>
+</ul>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-3">Ứng dụng Công nghiệp</h3>
+<ul class="list-none space-y-2 text-sm pl-0">
+  <li>Sản xuất Thông minh và Công nghiệp 4.0</li>
+  <li>Y tế Thông minh và Chăm sóc Sức khỏe</li>
+  <li>Tài chính Thông minh và Quản lý Rủi ro</li>
+  <li>Thành phố Thông minh và Phát triển Bền vững</li>
+</ul>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-3">Phát triển Nhân tài</h3>
+<ul class="list-none space-y-2 text-sm pl-0">
+  <li>Thiết kế Khóa học AI và Chứng nhận</li>
+  <li>Hợp tác Học thuật-Công nghiệp và Thực tập</li>
+  <li>Trao đổi Quốc tế và Chuyển giao Công nghệ</li>
+  <li>Hướng dẫn Khởi nghiệp và Kết nối Đầu tư</li>
+</ul>
+</div>
+
 </div>

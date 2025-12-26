@@ -3,6 +3,8 @@ title: "协会章程"
 description: "中华AI应用发展协会章程全文"
 date: 2024-01-01T00:00:00Z
 draft: false
+build:
+  list: never
 ---
 
 # 中华AI应用发展协会章程

@@ -6,4 +6,4 @@ draft: false
 layout: "list"
 ---
 
-{{< list where="Section" value="docs" limit=50 cardView=true >}}
+{{< list where="Section" value="news" limit=50 cardView=true >}}

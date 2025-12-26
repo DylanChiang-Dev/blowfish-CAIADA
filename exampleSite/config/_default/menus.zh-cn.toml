@@ -22,8 +22,3 @@
   name = "协会新闻"
   pageRef = "news"
   weight = 45
-
-[[main]]
-  name = "联络我们"
-  pageRef = "about"
-  weight = 50

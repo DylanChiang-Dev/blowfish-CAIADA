@@ -1,94 +1,102 @@
 ---
 title: "Association Charter"
-description: "Chinese AI Application Development Association Charter and Regulations"
+description: "Chinese AI Application Development Association Charter"
 date: 2024-01-01T00:00:00Z
 draft: false
+build:
+  list: never
 ---
 
 # Chinese AI Application Development Association Charter
 
-## Chapter 1: General Provisions
-
-### Article 1: Name and Nature
-This association is named "Chinese AI Application Development Association" (hereinafter referred to as "the Association"), and is a non-profit public interest corporation established in accordance with the law.
-
-### Article 2: Purpose
-The Association aims to promote the development of artificial intelligence technology and industrial applications, driving the sustainable growth of intelligent society.
-
-### Article 3: Scope of Business
-The Association's business scope includes:
-1. AI technology research and development promotion
-2. Industry development and cooperation facilitation
-3. Education training and certification services
-4. International cooperation and exchange activities
-5. Other matters related to AI application development
-
-## Chapter 2: Membership
-
-### Article 4: Membership Categories
-The Association has the following membership categories:
-1. Individual Members: Individuals engaged in AI-related work
-2. Corporate Members: Companies, organizations, or institutions involved in AI development
-3. Honorary Members: Individuals who have made significant contributions to AI development
-
-### Article 5: Membership Rights
-Members enjoy the following rights:
-1. Participate in association activities
-2. Vote and be elected in general meetings
-3. Access association resources and services
-4. Propose suggestions and opinions
-
-### Article 6: Membership Obligations
-Members have the following obligations:
-1. Comply with association charter and regulations
-2. Pay membership fees on time
-3. Support association activities and development
-4. Maintain association reputation
-
-## Chapter 3: Organization
-
-### Article 7: Organizational Structure
-The Association consists of:
-1. General Meeting
-2. Board of Directors
-3. Board of Supervisors
-4. Secretariat
-
-### Article 8: Board of Directors
-The Board of Directors consists of 9 directors, including 2 executive directors, elected by the General Meeting for a term of 3 years.
-
-### Article 9: Board of Supervisors
-The Board of Supervisors consists of 3 supervisors, including 1 executive supervisor, elected by the General Meeting for a term of 3 years.
-
-## Chapter 4: Meetings
-
-### Article 10: General Meeting
-The General Meeting is the highest authority of the Association, convened annually by the Board of Directors.
-
-### Article 11: Board Meetings
-The Board of Directors meets quarterly, with extraordinary meetings convened as needed.
-
-## Chapter 5: Finance
-
-### Article 12: Financial Sources
-The Association's finances come from:
-1. Membership fees
-2. Donations
-3. Government subsidies
-4. Service income
-5. Other legitimate income
-
-### Article 13: Financial Management
-The Association's finances are managed by the Board of Directors and supervised by the Board of Supervisors.
-
-## Chapter 6: Amendments and Dissolution
-
-### Article 14: Charter Amendments
-Charter amendments require approval by two-thirds of the members present at the General Meeting.
-
-### Article 15: Dissolution
-Association dissolution requires approval by three-fourths of all members and must be reported to relevant authorities.
+Approved by the Ministry of the Interior, Document No. [TBD]
 
 ---
 
-*This charter was adopted on January 1, 2024, and takes effect immediately.*
+## Chapter 1: General Provisions
+
+### Article 1: Name
+This association is named Chinese AI Application Development Association, abbreviated as CAIADA (hereinafter referred to as "the Association").
+
+### Article 2: Nature and Purpose
+The Association is a legally established, non-profit public interest organization with the purpose of "**promoting artificial intelligence technology development and industrial applications, driving sustainable growth of intelligent society**".
+
+### Article 3: Tasks
+The Association's tasks are as follows, implemented in accordance with relevant laws and regulations:
+
+**1. Technology R&D and Promotion**
+- AI core technology research and cross-domain application promotion
+
+**2. Industry Integration and International Cooperation**
+- AI industry cross-domain integration and international cooperation exchange
+
+**3. Knowledge Dissemination and Sharing**
+- AI application-oriented journal publication and industry knowledge sharing
+
+**4. Talent Development**
+- AI technology talent cultivation and education promotion
+
+**5. Policy Recommendations**
+- Government AI policy recommendations and industry white paper compilation
+
+**6. Digital Divide Reduction**
+- Implementation of urban-rural and generational AI digital divide reduction programs
+
+**7. Member Services**
+- Member rights protection and industry information integration platform operation
+
+**8. Talent Discovery**
+- AI technology competitions and talent discovery systems
+
+**9. Cross-Strait Exchange**
+- Cross-strait AI technology exchange and industry cooperation promotion
+
+---
+
+## Chapter 2: Members, Directors and Supervisors
+
+### Article 7: Member Categories
+The Association's member categories and fees are as follows:
+
+#### Individual Members
+- **Qualifications**: Those who agree with the Association's purpose and have 2+ years of AI-related practical experience (or passionate interest)
+- **Application Process**: Submit membership application form, reviewed and approved by the Board of Directors, and pay membership fees
+- **Fees**:
+  - Admission Fee: NT$ 200 (paid upon joining)
+  - Annual Fee: NT$ 200
+
+#### Corporate Members
+- **Qualifications**: Organizations or groups that agree with the Association's purpose
+- **Application Process**: Submit membership application form, reviewed and approved by the Board of Directors, and pay membership fees
+- **Rights**: Corporate members designate 1 representative to exercise membership rights
+- **Fees**:
+  - Admission Fee: NT$ 5,000 (paid upon joining)
+  - Annual Fee: NT$ 5,000
+
+#### Sponsoring Members
+- **Qualifications**: Individuals or groups that agree with the Association's purpose and sponsor the Association's funds or resources
+- **Application Process**: Submit membership application form, reviewed and approved by the Board of Directors
+
+### Article 8: Member Rights
+- **Full Rights Members**: Members (member representatives) have voting rights, election rights, eligibility to be elected, and recall rights
+- **Rights Unit**: Each member (member representative) counts as one vote
+- **Restriction**: Sponsoring members do not have the above rights
+
+### Article 9: Term of Office
+The Association's directors and supervisors serve terms of 4 years.
+
+### Article 10: Board of Directors Structure
+The Association has 9 directors (including 2 executive directors, one of whom is the Chairman) and 1 alternate director.
+- **Executive Directors**: Elected by all directors
+- **Chairman**: Elected by all directors from among the executive directors
+
+### Article 11: Board of Supervisors Structure
+The Association has 3 supervisors (including 1 executive supervisor) and 1 alternate supervisor.
+- **Executive Supervisor**: Elected by supervisors
+- **Duties**: Supervises daily association affairs and serves as the Supervisory Committee Chairman
+
+---
+
+## Charter Validity
+
+This charter takes effect after approval and registration by the Ministry of the Interior, and the same applies to amendments. Matters not covered in this charter shall be handled in accordance with relevant laws and regulations.
