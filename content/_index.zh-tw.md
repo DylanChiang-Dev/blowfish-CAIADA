@@ -5,7 +5,6 @@ description: "促進人工智慧技術發展與產業應用，推動智慧化社
 
 促進人工智慧技術發展與產業應用，推動智慧化社會永續成長
 
-<a href="membership/" class="inline-block !rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">加入我們</a>
 <a href="about/" class="inline-block !rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">認識協會</a>
 
 ---

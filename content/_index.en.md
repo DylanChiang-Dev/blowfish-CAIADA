@@ -5,7 +5,6 @@ description: "Promoting artificial intelligence technology development and indus
 
 Promoting artificial intelligence technology development and industrial applications, driving sustainable growth of intelligent society
 
-<a href="membership/" class="inline-block !rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">Join Us</a>
 <a href="about/" class="inline-block !rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">About CAIADA</a>
 
 ---

@@ -12,20 +12,20 @@ defaultContentLanguageInSubdir = false
 [languages]
   [languages.zh-tw]
     weight = 1
-    languageCode = "zh-tw"
-    languageName = "繁體中文"
+    locale = "zh-tw"
+    label = "繁體中文"
   [languages.zh-cn]
     weight = 2
-    languageCode = "zh-cn"
-    languageName = "简体中文"
+    locale = "zh-cn"
+    label = "简体中文"
   [languages.en]
     weight = 3
-    languageCode = "en"
-    languageName = "English"
+    locale = "en"
+    label = "English"
   [languages.vi]
     weight = 4
-    languageCode = "vi"
-    languageName = "Tiếng Việt"
+    locale = "vi"
+    label = "Tiếng Việt"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 

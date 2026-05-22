@@ -1,5 +1,5 @@
-languageCode = "zh-tw"
-languageName = "繁體中文"
+locale = "zh-tw"
+label = "繁體中文"
 weight = 2
 title = "中華AI應用發展協會"
 

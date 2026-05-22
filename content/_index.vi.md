@@ -5,7 +5,6 @@ description: "Thúc đẩy phát triển công nghệ trí tuệ nhân tạo và
 
 Thúc đẩy phát triển công nghệ trí tuệ nhân tạo và ứng dụng công nghiệp, thúc đẩy tăng trưởng bền vững của xã hội thông minh
 
-<a href="membership/" class="inline-block !rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">Tham gia với chúng tôi</a>
 <a href="about/" class="inline-block !rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">Tìm hiểu về hiệp hội</a>
 
 ---

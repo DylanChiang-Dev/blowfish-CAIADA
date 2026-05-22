@@ -1,5 +1,5 @@
-languageCode = "vi"
-languageName = "Tiếng Việt"
+locale = "vi"
+label = "Tiếng Việt"
 weight = 4
 title = "Hiệp hội Phát triển Ứng dụng AI Trung Hoa"
 

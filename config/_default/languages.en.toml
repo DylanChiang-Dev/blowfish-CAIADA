@@ -1,5 +1,5 @@
-languageCode = "en"
-languageName = "English"
+locale = "en"
+label = "English"
 weight = 3
 title = "Chinese AI Application Development Association"
 
