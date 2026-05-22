@@ -53,13 +53,12 @@ hugo --minify --gc # 生產建置
 
 - **首頁內容**：`content/_index.zh-tw.md`
 - **協會介紹**：`content/about/_index.zh-tw.md`
-- **協會章程**：`content/about/charter.zh-tw.md`
 - **協會新聞**：`content/news/_index.zh-tw.md`
 
 ### 導航結構
 
 ```
-首页 → 关于协会 → 协会章程 → 协会新闻 → 联络我们
+首页 → 关于协会 → 协会新闻 → 联络我们
 ```
 
 ### 多語言配置

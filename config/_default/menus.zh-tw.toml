@@ -9,11 +9,6 @@
   weight = 20
 
 [[main]]
-  name = "協會章程"
-  pageRef = "/about/charter/"
-  weight = 30
-
-[[main]]
   name = "協會新聞"
   pageRef = "/news/"
   weight = 40
@@ -23,8 +18,3 @@
   name = "關於我們"
   pageRef = "/about/"
   weight = 10
-
-[[footer]]
-  name = "協會章程"
-  pageRef = "/about/charter/"
-  weight = 20

@@ -12,13 +12,6 @@
   weight = 20
 
 [[main]]
-  name = "协会章程"
-  pageRef = "about/charter"
-  weight = 25
-
-
-
-[[main]]
   name = "协会新闻"
   pageRef = "news"
   weight = 45

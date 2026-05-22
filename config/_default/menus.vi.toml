@@ -12,11 +12,6 @@
   weight = 20
 
 [[main]]
-  name = "Điều lệ hiệp hội"
-  pageRef = "about/charter"
-  weight = 25
-
-[[main]]
   name = "Tin tức hiệp hội"
   pageRef = "news"
   weight = 45
