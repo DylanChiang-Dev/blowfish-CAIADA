@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="CAIADA logo">
+  <rect width="512" height="512" rx="96" fill="#081523"/>
+  <path d="M88 284c18 86 99 148 188 130 90-18 148-105 130-190" fill="none" stroke="#1655aa" stroke-width="18" stroke-linecap="round"/>
+  <path d="M112 215c34-74 120-112 197-83 52 19 89 61 104 111" fill="none" stroke="#2ab8dc" stroke-width="18" stroke-linecap="round"/>
+  <path d="M164 374c68 37 154 15 195-50" fill="none" stroke="#d5ab54" stroke-width="16" stroke-linecap="round"/>
+  <g stroke="#5497c9" stroke-width="8" stroke-linecap="round" opacity=".75">
+    <path d="M156 206 256 142 356 210 320 338 190 334 156 206Z"/>
+    <path d="M256 142 320 338"/>
+  </g>
+  <g fill="#2ab8dc"><circle cx="156" cy="206" r="20"/><circle cx="356" cy="210" r="20"/></g>
+  <g fill="#d5ab54"><circle cx="256" cy="142" r="20"/><circle cx="320" cy="338" r="20"/></g>
+  <circle cx="190" cy="334" r="20" fill="#1655aa"/>
+  <text x="256" y="284" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="96" fill="#f5faff">AI</text>
+</svg>

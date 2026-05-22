@@ -8,12 +8,12 @@ title = "中華AI應用發展協會"
   isoCode = "zh-tw"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/blowfish_logo_transparent.png"
+  logo = "img/caiada-logo-wide.png"
   description = "中華AI應用發展協會官網"
 
 [params.author]
   name = "中華AI應用發展協會"
-  image = "img/blowfish_logo.png"
+  image = "img/caiada-author.png"
   headline = "促進人工智慧技術發展與產業應用"
   bio = "中華AI應用發展協會致力於成為台灣AI產業發展的重要推手"
   links = []

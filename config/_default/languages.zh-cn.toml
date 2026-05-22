@@ -8,12 +8,12 @@ title = "中华AI应用发展协会"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/blowfish_logo_transparent.png"
+  logo = "img/caiada-logo-wide.png"
   description = "中华AI应用发展协会官网"
 
 [params.author]
   name = "中华AI应用发展协会"
-  image = "img/blowfish_logo.png"
+  image = "img/caiada-author.png"
   headline = "促进人工智能技术发展与产业应用"
   bio = "中华AI应用发展协会致力于成为台湾AI产业发展的重要推手"
   links = []

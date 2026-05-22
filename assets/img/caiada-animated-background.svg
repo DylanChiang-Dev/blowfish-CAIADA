@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2ab8dc" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#2ab8dc" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#2ab8dc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-gold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d5ab54" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#d5ab54" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#d5ab54" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ab8dc" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#2ab8dc" stop-opacity="0.58"/>
+      <stop offset="100%" stop-color="#d5ab54" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="copy-shadow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#07121f" stop-opacity="0.62"/>
+      <stop offset="44%" stop-color="#07121f" stop-opacity="0.42"/>
+      <stop offset="78%" stop-color="#07121f" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#07121f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <style>
+      .drift-a { animation: driftA 26s linear infinite; }
+      .drift-b { animation: driftB 34s linear infinite; }
+      .pulse { animation: pulse 4.8s ease-in-out infinite; transform-origin: center; }
+      .pulse:nth-of-type(2n) { animation-delay: -1.4s; }
+      .pulse:nth-of-type(3n) { animation-delay: -2.7s; }
+      .dash { stroke-dasharray: 9 24; animation: dash 16s linear infinite; }
+      @keyframes driftA {
+        from { transform: translate3d(-90px, 34px, 0); }
+        to { transform: translate3d(90px, -34px, 0); }
+      }
+      @keyframes driftB {
+        from { transform: translate3d(80px, -42px, 0); }
+        to { transform: translate3d(-80px, 42px, 0); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: .48; transform: scale(.82); }
+        50% { opacity: 1; transform: scale(1.18); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -330; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .drift-a, .drift-b, .pulse, .dash { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#07121f"/>
+  <rect width="1600" height="900" fill="#0b1d31" opacity="0.72"/>
+  <circle cx="1340" cy="160" r="520" fill="#1655aa" opacity="0.18" filter="url(#soft)"/>
+  <circle cx="1180" cy="780" r="420" fill="#2ab8dc" opacity="0.11" filter="url(#soft)"/>
+  <circle cx="190" cy="760" r="360" fill="#d5ab54" opacity="0.06" filter="url(#soft)"/>
+
+  <g class="drift-a" fill="none" stroke="url(#line)" stroke-width="2.4" stroke-linecap="round">
+    <path class="dash" d="M-80 760 C 220 620, 390 800, 650 650 S 1040 380, 1680 520"/>
+    <path class="dash" d="M-120 570 C 250 470, 520 520, 760 410 S 1180 160, 1720 260" opacity="0.7"/>
+    <path class="dash" d="M120 910 C 410 690, 600 730, 840 570 S 1120 460, 1640 650" opacity="0.82"/>
+  </g>
+
+  <g class="drift-b" fill="none" stroke="#2ab8dc" stroke-width="1.5" stroke-linecap="round" opacity="0.34">
+    <path d="M760 110 L920 230 L1110 170 L1300 330 L1500 250"/>
+    <path d="M650 720 L850 620 L1030 700 L1210 540 L1470 610"/>
+    <path d="M430 250 L610 330 L780 290 L960 420 L1190 390"/>
+    <path d="M260 700 L480 590 L640 660 L820 520"/>
+  </g>
+
+  <g opacity="0.54">
+    <g class="pulse"><circle cx="920" cy="230" r="34" fill="url(#glow-cyan)"/><circle cx="920" cy="230" r="5" fill="#dff8ff"/></g>
+    <g class="pulse"><circle cx="1110" cy="170" r="28" fill="url(#glow-gold)"/><circle cx="1110" cy="170" r="4" fill="#fff0c8"/></g>
+    <g class="pulse"><circle cx="1300" cy="330" r="38" fill="url(#glow-cyan)"/><circle cx="1300" cy="330" r="6" fill="#dff8ff"/></g>
+    <g class="pulse"><circle cx="850" cy="620" r="31" fill="url(#glow-cyan)"/><circle cx="850" cy="620" r="5" fill="#dff8ff"/></g>
+    <g class="pulse"><circle cx="1030" cy="700" r="30" fill="url(#glow-gold)"/><circle cx="1030" cy="700" r="5" fill="#fff0c8"/></g>
+    <g class="pulse"><circle cx="1210" cy="540" r="40" fill="url(#glow-cyan)"/><circle cx="1210" cy="540" r="6" fill="#dff8ff"/></g>
+    <g class="pulse"><circle cx="610" cy="330" r="24" fill="url(#glow-cyan)"/><circle cx="610" cy="330" r="4" fill="#dff8ff"/></g>
+  </g>
+
+  <g opacity="0.18" stroke="#dcefff" stroke-width="1">
+    <path d="M0 695 H1600"/>
+    <path d="M0 730 H1600"/>
+    <path d="M0 765 H1600"/>
+    <path d="M0 800 H1600"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#copy-shadow)"/>
+  <rect width="1600" height="900" fill="none" stroke="#2ab8dc" stroke-opacity="0.05" stroke-width="2"/>
+</svg>

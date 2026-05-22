@@ -23,9 +23,9 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/background.svg"
-defaultFeaturedImage = "/img/featured.svg"
-defaultSocialImage = "/img/blowfish_banner.png"
+defaultBackgroundImage = "/img/caiada-animated-background.svg"
+defaultFeaturedImage = "/img/caiada-featured.webp"
+defaultSocialImage = "/img/caiada-social-card.webp"
 
 highlightCurrentMenuArea = true
 smartTOC = true
