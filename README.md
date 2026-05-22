@@ -15,21 +15,13 @@
 
 ### 環境需求
 
-- **Hugo** 0.141.0 - 0.150.0+ (推薦 0.150.1+extended)
-- **Node.js** 18+ (用於 CSS 構建)
+- **Hugo** 0.161.1+extended
 - **Git** (用於版本控制)
 
 ### 本地開發
 
 ```bash
-# 1. 安裝依賴
-npm install
-
-# 2. 構建 CSS
-npm run build
-
-# 3. 啟動開發伺服器
-npm run example
+hugo server
 ```
 
 訪問 http://localhost:1313 查看網站。
@@ -37,44 +29,32 @@ npm run example
 ### 常用命令
 
 ```bash
-# CSS 構建
-npm run build      # 生產模式構建 CSS
-npm run dev        # 開發模式監控文件變化
-
-# Hugo 服務器
-npm run example            # 開發模式（推薦）
-npm run example:core       # 快速測試模式
-npm run example:production # 生產模式預覽
-
-# 工具
-npm run lighthouse   # 執行效能測試
-npm run assets       # 重新複製第三方庫
+hugo server        # 本地開發
+hugo --minify --gc # 生產建置
 ```
 
 ## 📁 專案結構
 
 ```
-├── exampleSite/          # 示例網站內容
-│   ├── config/          # Hugo 配置文件
-│   ├── content/         # 網站內容（僅中文）
-│   └── static/          # 靜態資源
-├── assets/              # 主題資源
-│   ├── css/            # 樣式文件
-│   ├── js/             # JavaScript 文件
-│   └── icons/          # SVG 圖標
-├── layouts/             # Hugo 模板
-├── i18n/               # 國際化（僅中文）
-└── CLAUDE.md           # 開發指南
+├── content/             # 網站內容
+├── assets/img/          # 協會自有圖片
+├── config/_default/     # Hugo 與多語言配置
+├── layouts/             # 官網自定義模板覆寫
+├── themes/blowfish/     # 已 vendor 的 Blowfish 主題源碼
+├── plans/               # 技術計劃
+├── AGENTS.md            # Agent 協作入口
+├── RULES.md             # 倉庫規則
+└── MEMORY.md            # 協作記憶
 ```
 
 ## 🌐 網站架構
 
 ### 內容管理
 
-- **協會介紹**：`exampleSite/content/about/_index.zh-cn.md`
-- **协会章程**：`exampleSite/content/about/charter.zh-cn.md`
-- **协会新闻**：`exampleSite/content/news/_index.zh-cn.md`
-- **首页内容**：`exampleSite/content/_index.zh-cn.md`
+- **首頁內容**：`content/_index.zh-tw.md`
+- **協會介紹**：`content/about/_index.zh-tw.md`
+- **協會章程**：`content/about/charter.zh-tw.md`
+- **協會新聞**：`content/news/_index.zh-tw.md`
 
 ### 導航結構
 
@@ -82,9 +62,10 @@ npm run assets       # 重新複製第三方庫
 首页 → 关于协会 → 协会章程 → 协会新闻 → 联络我们
 ```
 
-### 單語言配置
+### 多語言配置
 
-- **語言**：僅使用繁體中文 (zh-cn)
+- **預設語言**：繁體中文 (`zh-tw`)
+- **其他語言**：簡體中文、英文、越南文
 - **編碼**：UTF-8
 - **優化**：針對中文顯示特別優化
 
@@ -103,10 +84,9 @@ npm run assets       # 重新複製第三方庫
    - 連接 GitHub 倉庫
    - 構建命令：`hugo --minify --gc`
    - 構建輸出目錄：`public`
-   - 根目錄：`exampleSite`
+   - 根目錄：`/`
    - 環境變量：
-     - `HUGO_VERSION`: `0.150.1`
-     - `NODE_VERSION`: `18`
+     - `HUGO_VERSION`: `0.161.1`
 
 3. **性能優化**
    - 啟用 Auto Minify (HTML, CSS, JS)
@@ -126,7 +106,7 @@ npm run assets       # 重新複製第三方庫
 
 ## 📝 開發指南
 
-詳細的開發指南請參考 [CLAUDE.md](./CLAUDE.md) 文件。
+詳細的開發指南請參考 [AGENTS.md](./AGENTS.md)、[RULES.md](./RULES.md) 與 [MEMORY.md](./MEMORY.md)。
 
 ## 🌐 Cloudflare Pages 部署
 
@@ -135,10 +115,9 @@ npm run assets       # 重新複製第三方庫
 ### 1. Cloudflare Pages 設置
 - **構建命令**：`hugo --minify --gc`
 - **構建輸出目錄**：`public`
-- **根目錄**：`exampleSite`
+- **根目錄**：`/`
 - **環境變量**：
-  - `HUGO_VERSION`: `0.150.1`
-  - `NODE_VERSION`: `18`
+  - `HUGO_VERSION`: `0.161.1`
 
 ### 2. 部署後驗證
 - [ ] 中文內容正確顯示
@@ -164,7 +143,7 @@ GitHub 倉庫現在已經完全準備好用於 Cloudflare Pages 部署。
 
 如果遇到問題或有建議，請：
 
-- 查看 [CLAUDE.md](./CLAUDE.md) 開發指南
+- 查看 [AGENTS.md](./AGENTS.md) 開發指南
 - 提交 Issue 到 GitHub Issues
 - 聯絡開發團隊
 

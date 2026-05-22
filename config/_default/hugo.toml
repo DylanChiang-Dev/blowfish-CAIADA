@@ -2,24 +2,46 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-# theme = "blowfish" # UNCOMMENT THIS LINE
-# baseURL = "https://your_domain.com/"
-defaultContentLanguage = "en"
+theme = "blowfish"
+baseURL = "https://www.caiada.edu.kg/"
+defaultContentLanguage = "zh-tw"
+defaultContentLanguageInSubdir = false
+# disableLanguages = ["en"] #to allow translation work requiring shipping to production
+
+# 多語言配置
+[languages]
+  [languages.zh-tw]
+    weight = 1
+    languageCode = "zh-tw"
+    languageName = "繁體中文"
+  [languages.zh-cn]
+    weight = 2
+    languageCode = "zh-cn"
+    languageName = "简体中文"
+  [languages.en]
+    weight = 3
+    languageCode = "en"
+    languageName = "English"
+  [languages.vi]
+    weight = 4
+    languageCode = "vi"
+    languageName = "Tiếng Việt"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-summaryLength = 0
+summaryLength = 30
+hasCJKLanguage = true
 
 buildDrafts = false
 buildFuture = false
 
 enableEmoji = true
 
-# googleAnalytics = "G-XXXXXXXXX"
+googleAnalytics = "G-PEDMYR1V0K"
 
 [pagination]
-  pagerSize = 100
+  pagerSize = 102
 
 [imaging]
   anchor = 'Center'
@@ -31,7 +53,7 @@ enableEmoji = true
   series = "series"
 
 [sitemap]
-  changefreq = 'daily'
+  changefreq = 'always'
   filename = 'sitemap.xml'
   priority = 0.5
 
