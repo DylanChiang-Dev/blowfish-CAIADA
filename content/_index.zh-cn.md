@@ -5,8 +5,6 @@ description: "促进人工智能技术发展与产业应用，推动智能化社
 
 促进人工智能技术发展与产业应用，推动智能化社会永续成长
 
-<a href="about/" class="inline-block !rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">认识协会</a>
-
 ---
 
 ## 🚀 我们的使命
