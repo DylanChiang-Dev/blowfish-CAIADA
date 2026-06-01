@@ -8,7 +8,6 @@ title = "中华AI应用发展协会"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/caiada-logo-wide.png"
   description = "中华AI应用发展协会官网"
 
 [params.author]

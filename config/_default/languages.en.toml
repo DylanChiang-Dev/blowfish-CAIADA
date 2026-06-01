@@ -8,7 +8,6 @@ title = "Chinese AI Application Development Association"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/caiada-logo-wide.png"
   description = "Promoting artificial intelligence technology development and industrial applications"
 
 [params.author]

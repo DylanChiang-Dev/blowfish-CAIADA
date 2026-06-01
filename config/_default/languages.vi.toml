@@ -8,7 +8,6 @@ title = "Hiệp hội Phát triển Ứng dụng AI Trung Hoa"
   isoCode = "vi"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/caiada-logo-wide.png"
   description = "Thúc đẩy phát triển công nghệ trí tuệ nhân tạo và ứng dụng công nghiệp"
 
 [params.author]
