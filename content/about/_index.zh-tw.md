@@ -38,22 +38,40 @@ Chinese AI Application Development Association
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
 
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
-<img src="images/jiangtao.jpg" alt="會長 蔣濤" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
-<h3 class="text-xl font-bold mb-1">蔣濤</h3>
-<p class="text-primary-600 dark:text-primary-400 font-medium mb-0">會長</p>
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center flex flex-col justify-between">
+  <div>
+    <img src="images/jiangtao.jpg" alt="會長 蔣濤" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
+    <h3 class="text-xl font-bold mb-1">蔣濤</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-medium mb-0">會長</p>
+    <hr class="my-3 border-neutral-200 dark:border-neutral-700" />
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 text-left leading-relaxed">
+      復旦大學人工智能博士生，中國文化大學碩士。未識（Weishi）創辦人，專注於 AIGC 商業化實戰與 AI 系統落地，曾榮獲雲台大賽最佳創意獎。
+    </p>
+  </div>
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
-<img src="images/xuhuiyao.jpg" alt="副會長 許慧瑤" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
-<h3 class="text-xl font-bold mb-1">許慧瑤</h3>
-<p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副會長</p>
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center flex flex-col justify-between">
+  <div>
+    <img src="images/xuhuiyao.jpg" alt="副會長 許惠堯" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
+    <h3 class="text-xl font-bold mb-1">許惠堯</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副會長</p>
+    <hr class="my-3 border-neutral-200 dark:border-neutral-700" />
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 text-left leading-relaxed">
+      國立陽明交通大學公共衛生研究所碩士，中國醫藥大學公共衛生學系學士。平庵股份有限公司負責人，深耕公共衛生、健康管理與醫療科技政策領域，推動 AI 技術與生醫大健康產業的跨界融合與應用。
+    </p>
+  </div>
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
-<img src="images/yaoyunhui.jpg" alt="副會長 姚運會" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
-<h3 class="text-xl font-bold mb-1">姚運會</h3>
-<p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副會長</p>
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center flex flex-col justify-between">
+  <div>
+    <img src="images/yaoyunhui.jpg" alt="副會長 姚蘊慧" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
+    <h3 class="text-xl font-bold mb-1">姚蘊慧</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副會長</p>
+    <hr class="my-3 border-neutral-200 dark:border-neutral-700" />
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 text-left leading-relaxed">
+      國立政治大學中山人文社會科學研究所博士，中國文化大學國家發展與中國大陸研究所副教授。學術專長為比較社會政策、全球化與新興社會運動、親密關係與情感教育，為協會提供深厚的社會學理基礎與 AI 倫理治理把關。
+    </p>
+  </div>
 </div>
 
 </div>
