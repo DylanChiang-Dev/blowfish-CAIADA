@@ -1,6 +1,6 @@
 ---
 title: "關於協會"
-description: "認識中華AI應用發展協會的使命、願景與核心價值"
+description: "認識中華AI應用發展協會的使命、願景、宗旨任務與協會架構"
 date: 2024-01-01T00:00:00Z
 draft: false
 ---
@@ -9,61 +9,51 @@ draft: false
 
 Chinese AI Application Development Association
 
-## 🎯 使命與願景
+中華AI應用發展協會（CAIADA）為依法設立、非以營利為目的之公益性社會團體，致力於連結學術界、產業界、政府部門與專業社群，推動人工智慧技術發展、產業應用與人才培育。
 
-**宗旨：促進人工智慧技術發展與產業應用，推動智慧化社會永續成長**
+## 使命與願景
 
-中華AI應用發展協會（CAIADA）是一個依法設立、非以營利為目的之公益性社團法人。我們致力於成為台灣AI產業發展的重要推手，連結學術界、產業界與政府部門，共同打造創新的AI生態系統。
+本會以促進人工智慧技術發展與產業應用為核心，推動智慧化社會永續成長，建立跨領域、跨產業、跨區域的 AI 應用交流平台。
 
-## 🌟 核心價值
+我們期望透過產業交流、資源整合、商務對接與生態共建，協助會員掌握 AI 技術趨勢、拓展合作機會，並促進 AI 應用在教育、產業、公共服務與社會創新等領域落地。
 
-- **創新領先**：推動AI技術前沿研發與應用創新
-- **開放合作**：建立跨領域合作網路，促進知識共享
-- **人才培育**：投入AI教育，培養未來科技領袖
-- **社會責任**：確保AI技術發展符合倫理與社會福祉
-- **國際視野**：連結全球AI社群，提升台灣國際競爭力
+## 宗旨與任務
 
-## 📊 協會架構
+**宗旨：促進人工智慧技術發展與產業應用，推動智慧化社會永續成長。**
 
-本會設有完整的治理架構，由專業的領導團隊負責推動協會發展：
+本會依相關法令規定推動及執行下列任務：
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
+1. 人工智慧核心技術研發與跨域應用推廣。
+2. 國際 AI 技術交流與產業合作促進。
+3. AI 應用導向期刊出版與產業知識共享。
+4. AI 技術人才培育與教育推廣。
+5. 政府 AI 政策建言與產業白皮書編纂。
+6. 縮減城鄉、世代 AI 數位落差計畫推動與執行。
+7. 會員權益保障及產業資訊整合平台營運。
+8. AI 技術競賽與人才發掘體系。
+
+## 協會架構
+
+本會由會長與副會長共同推動協會發展方向、會員服務、產業合作與對外交流。
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
-<img src="images/chairman.png" alt="理事長" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
+<img src="images/jiangtao.jpg" alt="會長 蔣濤" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
 <h3 class="text-xl font-bold mb-1">蔣濤</h3>
-<p class="text-primary-600 dark:text-primary-400 font-medium mb-2">理事長</p>
-<p class="text-sm text-neutral-600 dark:text-neutral-400">負責領導協會發展方向，推動AI產業創新與國際合作</p>
+<p class="text-primary-600 dark:text-primary-400 font-medium mb-0">會長</p>
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
-<img src="images/secretary.png" alt="秘書長" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
-<h3 class="text-xl font-bold mb-1">（待定）</h3>
-<p class="text-primary-600 dark:text-primary-400 font-medium mb-2">秘書長</p>
-<p class="text-sm text-neutral-600 dark:text-neutral-400">負責日常營運與會務推動，統籌協會各項業務執行</p>
+<img src="images/xuhuiyao.jpg" alt="副會長 許慧瑤" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
+<h3 class="text-xl font-bold mb-1">許慧瑤</h3>
+<p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副會長</p>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
+<img src="images/yaoyunhui.jpg" alt="副會長 姚運會" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
+<h3 class="text-xl font-bold mb-1">姚運會</h3>
+<p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副會長</p>
 </div>
 
 </div>
-
-### 組織架構
-
-- **理事會**：9位理事（含2位常務理事）
-- **監事會**：3位監事（含1位常務監事）
-- **秘書處**：負責日常營運與會務推動
-
-## 🎯 主要業務
-
-### 技術研發與推廣
-- AI核心技術研發與創新應用
-- 跨域技術整合與解決方案
-- 技術標準制定與推廣
-
-### 產業發展與合作
-- 產業鏈整合與媒合服務
-- 國際合作與技術交流
-- 投資媒合與創業輔導
-
-### 教育培訓與認證
-- AI專業課程設計與執行
-- 人才培育與技能認證
-- 產學合作與實習計畫
