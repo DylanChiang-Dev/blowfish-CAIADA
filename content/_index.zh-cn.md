@@ -7,7 +7,7 @@ description: "促进人工智能技术发展与产业应用，推动智能化社
 
 ---
 
-## 🚀 我们的使命
+## 我们的使命
 
 中华AI应用发展协会（CAIADA）致力于成为台湾AI产业发展的重要推手，连结学术界、产业界与政府部门，共同打造创新的AI生态系统。
 
@@ -16,19 +16,16 @@ description: "促进人工智能技术发展与产业应用，推动智能化社
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-🧠
 <h3 class="text-xl font-bold mb-2">技术研发与推广</h3>
 <p>人工智能核心技术研发与跨域应用推广，推动技术创新与实践。</p>
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-👥
 <h3 class="text-xl font-bold mb-2">产业整合与合作</h3>
 <p>AI产业跨域整合与国际合作交流，建立产业发展的桥梁。</p>
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-📚
 <h3 class="text-xl font-bold mb-2">人才培育与教育</h3>
 <p>AI专业人才培育与教育推广，提升产业竞争力与创新能力。</p>
 </div>
@@ -37,7 +34,7 @@ description: "促进人工智能技术发展与产业应用，推动智能化社
 
 ---
 
-## 📈 发展重点
+## 发展重点
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
 

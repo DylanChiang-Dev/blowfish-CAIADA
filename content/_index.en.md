@@ -7,7 +7,7 @@ Promoting artificial intelligence technology development and industrial applicat
 
 ---
 
-## 🚀 Our Mission
+## Our Mission
 
 The Chinese AI Application Development Association (CAIADA) is committed to becoming a key driver of Taiwan's AI industry development, connecting academia, industry, and government to jointly build an innovative AI ecosystem.
 
@@ -16,19 +16,16 @@ The Chinese AI Application Development Association (CAIADA) is committed to beco
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-🧠
 <h3 class="text-xl font-bold mb-2">Technology R&D and Promotion</h3>
 <p>AI core technology research and cross-domain application promotion, driving technological innovation and practice.</p>
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-👥
 <h3 class="text-xl font-bold mb-2">Industry Integration and Cooperation</h3>
 <p>AI industry cross-domain integration and international cooperation, building bridges for industry development.</p>
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-📚
 <h3 class="text-xl font-bold mb-2">Talent Development and Education</h3>
 <p>AI professional talent cultivation and education promotion, enhancing industry competitiveness and innovation.</p>
 </div>
@@ -37,7 +34,7 @@ The Chinese AI Application Development Association (CAIADA) is committed to beco
 
 ---
 
-## 📈 Development Focus
+## Development Focus
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
 

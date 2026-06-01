@@ -38,22 +38,40 @@ Chinese AI Application Development Association
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
 
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
-<img src="images/jiangtao.jpg" alt="会长 蒋涛" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
-<h3 class="text-xl font-bold mb-1">蒋涛</h3>
-<p class="text-primary-600 dark:text-primary-400 font-medium mb-0">会长</p>
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center flex flex-col justify-between">
+  <div>
+    <img src="images/jiangtao.jpg" alt="会长 蒋涛" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
+    <h3 class="text-xl font-bold mb-1">蒋涛</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-medium mb-0">会长</p>
+    <hr class="my-3 border-neutral-200 dark:border-neutral-700" />
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 text-left leading-relaxed">
+      复旦大学人工智能博士。长期致力于人工智能前沿技术研究，推动产业应用落地与跨领域合作。
+    </p>
+  </div>
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
-<img src="images/xuhuiyao.jpg" alt="副会长 许慧瑶" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
-<h3 class="text-xl font-bold mb-1">许慧瑶</h3>
-<p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副会长</p>
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center flex flex-col justify-between">
+  <div>
+    <img src="images/xuhuiyao.jpg" alt="副会长 许惠尧" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
+    <h3 class="text-xl font-bold mb-1">许惠尧</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副会长</p>
+    <hr class="my-3 border-neutral-200 dark:border-neutral-700" />
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 text-left leading-relaxed">
+      国立阳明交通大学公共卫生研究所硕士，中国医药大学公共卫生学系学士。长期关注公共卫生与大健康产业，推动人工智能技术与公共健康领域的融合应用。
+    </p>
+  </div>
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center">
-<img src="images/yaoyunhui.jpg" alt="副会长 姚运会" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
-<h3 class="text-xl font-bold mb-1">姚运会</h3>
-<p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副会长</p>
+<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg text-center flex flex-col justify-between">
+  <div>
+    <img src="images/yaoyunhui.jpg" alt="副会长 姚蕴慧" class="rounded-full mx-auto mb-4 object-cover" style="width: 8rem; height: 8rem;" />
+    <h3 class="text-xl font-bold mb-1">姚蕴慧</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副会长</p>
+    <hr class="my-3 border-neutral-200 dark:border-neutral-700" />
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 text-left leading-relaxed">
+      中国文化大学国家发展与中国大陆研究所副教授。学术专长为比较社会政策与社会运动，致力于探讨人工智能在社会发展中的伦理治理与应用政策。
+    </p>
+  </div>
 </div>
 
 </div>
