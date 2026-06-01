@@ -57,7 +57,7 @@ Chinese AI Application Development Association
     <p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副會長</p>
     <hr class="my-3 border-neutral-200 dark:border-neutral-700" />
     <p class="text-sm text-neutral-600 dark:text-neutral-400 text-left leading-relaxed">
-      國立陽明交通大學公共衛生研究所碩士，中國醫藥大學公共衛生學系學士。平庵股份有限公司負責人，深耕公共衛生、健康管理與醫療科技政策領域，推動 AI 技術與生醫大健康產業的跨界融合與應用。
+      國立陽明交通大學公共衛生研究所碩士，中國醫藥大學公共衛生學系學士。長期關注公共衛生與大健康產業，推動人工智慧技術與公共健康領域的融合應用。
     </p>
   </div>
 </div>
@@ -69,7 +69,7 @@ Chinese AI Application Development Association
     <p class="text-primary-600 dark:text-primary-400 font-medium mb-0">副會長</p>
     <hr class="my-3 border-neutral-200 dark:border-neutral-700" />
     <p class="text-sm text-neutral-600 dark:text-neutral-400 text-left leading-relaxed">
-      國立政治大學中山人文社會科學研究所博士，中國文化大學國家發展與中國大陸研究所副教授。學術專長為比較社會政策、全球化與新興社會運動、親密關係與情感教育，為協會提供深厚的社會學理基礎與 AI 倫理治理把關。
+      中國文化大學國家發展與中國大陸研究所副教授。學術專長為比較社會政策與社會運動，致力於探討人工智慧在社會發展中的倫理治理與應用政策。
     </p>
   </div>
 </div>
