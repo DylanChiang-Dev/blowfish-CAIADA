@@ -34,39 +34,35 @@ Hiệp hội thúc đẩy và thực hiện các nhiệm vụ sau theo quy đị
 
 ## Cơ cấu Hiệp hội
 
-Chủ tịch và các Phó Chủ tịch cùng định hướng phát triển hiệp hội, dịch vụ hội viên, hợp tác công nghiệp và trao đổi đối ngoại.
+Chủ tịch và các Phó Chủ tịch cùng hỗ trợ phát triển hiệp hội, dịch vụ hội viên và trao đổi đối ngoại.
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 my-10">
+<div class="not-prose my-8 divide-y divide-neutral-200 overflow-hidden border-y border-neutral-200 dark:divide-neutral-700 dark:border-neutral-700">
 
-  <!-- Chủ tịch Card -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/jiangtao.jpg" alt="Chủ tịch Jiang Tao" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">Jiang Tao</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">Chủ tịch</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      Tiến sĩ Trí tuệ Nhân tạo, Đại học Phục Đán. Dành nhiều năm nghiên cứu công nghệ AI tiên phong, thúc đẩy ứng dụng thực tế trong công nghiệp và hợp tác liên ngành.
-    </p>
-  </div>
-
-  <!-- Phó Chủ tịch Xu Huiyao -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/xuhuiyao.jpg" alt="Phó Chủ tịch Xu Huiyao" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">Xu Huiyao</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">Phó Chủ tịch</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      Thạc sĩ Viện Nghiên cứu Sức khỏe Công cộng, Đại học Quốc gia Dương Minh Giao Thông; Cử nhân Khoa Sức khỏe Công cộng, Đại học Y Dược Trung Hoa. Tập trung lâu năm vào sức khỏe công cộng và ngành y tế lớn, thúc đẩy tích hợp và ứng dụng AI trong lĩnh vực y tế công cộng.
-    </p>
-  </div>
-
-  <!-- Phó Chủ tịch Yao Yunhui -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/yaoyunhui.jpg" alt="Phó Chủ tịch Yao Yunhui" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">Yao Yunhui</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">Phó Chủ tịch</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      Phó Giáo sư, Viện Nghiên cứu Phát triển Quốc gia và Đại lục, Đại học Văn hóa Trung Hoa. Chuyên môn học thuật về chính sách xã hội so sánh và phong trào xã hội, cống hiến cho việc nghiên cứu quản trị đạo đức và chính sách ứng dụng của AI trong phát triển xã hội.
-    </p>
-  </div>
-
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/jiangtao.jpg" alt="Chủ tịch Jiang Tao" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Jiang Tao</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Chủ tịch</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Thúc đẩy phát triển hiệp hội, trao đổi công nghệ AI và hợp tác công nghiệp.</p>
+</div>
 </div>
 
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/xuhuiyao.jpg" alt="Phó Chủ tịch Xu Huiyao" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Xu Huiyao</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Phó Chủ tịch</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Hỗ trợ dịch vụ hội viên, trao đổi liên lĩnh vực và hợp tác ứng dụng AI.</p>
+</div>
+</div>
+
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/yaoyunhui.jpg" alt="Phó Chủ tịch Yao Yunhui" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Yao Yunhui</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Phó Chủ tịch</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Phó Giáo sư tại Viện Nghiên cứu Phát triển Quốc gia và Đại lục, Đại học Văn hóa Trung Hoa; chuyên về chính sách xã hội so sánh và phong trào xã hội, quan tâm đến quản trị AI và ứng dụng chính sách công.</p>
+</div>
+</div>
+
+</div>

@@ -34,39 +34,35 @@ The association promotes and carries out the following tasks in accordance with 
 
 ## Association Structure
 
-The President and Vice Presidents jointly guide the association's development direction, member services, industrial cooperation, and external exchange.
+The President and Vice Presidents jointly support the association's development, member services, and external exchange.
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 my-10">
+<div class="not-prose my-8 divide-y divide-neutral-200 overflow-hidden border-y border-neutral-200 dark:divide-neutral-700 dark:border-neutral-700">
 
-  <!-- President Card -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/jiangtao.jpg" alt="President Jiang Tao" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">Jiang Tao</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">President</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      PhD in Artificial Intelligence, Fudan University. Long dedicated to cutting-edge AI research, driving industrial application implementation, and cross-domain collaboration.
-    </p>
-  </div>
-
-  <!-- VP Xu Huiyao -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/xuhuiyao.jpg" alt="Vice President Xu Huiyao" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">Xu Huiyao</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">Vice President</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      MS in Public Health, National Yang Ming Chiao Tung University; BS in Public Health, China Medical University. Long-term focus on public health and the big health industry, driving the integration and application of AI in public health fields.
-    </p>
-  </div>
-
-  <!-- VP Yao Yunhui -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/yaoyunhui.jpg" alt="Vice President Yao Yunhui" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">Yao Yunhui</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">Vice President</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      Associate Professor, Graduate Institute of National Development and Mainland China Studies, Chinese Culture University. Specializes in comparative social policy and social movements, dedicated to exploring AI's ethical governance and application policies in social development.
-    </p>
-  </div>
-
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/jiangtao.jpg" alt="President Jiang Tao" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Jiang Tao</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">President</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Promotes CAIADA's development, AI technology exchange, and industrial cooperation.</p>
+</div>
 </div>
 
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/xuhuiyao.jpg" alt="Vice President Xu Huiyao" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Xu Huiyao</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Vice President</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Supports member services, cross-sector exchange, and AI application cooperation.</p>
+</div>
+</div>
+
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/yaoyunhui.jpg" alt="Vice President Yao Yunhui" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Yao Yunhui</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Vice President</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Associate Professor at the Graduate Institute of National Development and Mainland China Studies, Chinese Culture University; specializes in comparative social policy and social movements, with a focus on AI governance and public policy applications.</p>
+</div>
+</div>
+
+</div>

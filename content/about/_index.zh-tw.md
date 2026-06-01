@@ -34,39 +34,35 @@ Chinese AI Application Development Association
 
 ## 協會架構
 
-本會由會長與副會長共同推動協會發展方向、會員服務、產業合作與對外交流。
+本會由會長與副會長共同推動協會發展、會員服務與對外交流。
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 my-10">
+<div class="not-prose my-8 divide-y divide-neutral-200 overflow-hidden border-y border-neutral-200 dark:divide-neutral-700 dark:border-neutral-700">
 
-  <!-- 會長卡片 -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/jiangtao.jpg" alt="會長 蔣濤" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">蔣濤</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">會長</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      復旦大學人工智能博士。長期致力於人工智慧前沿技術研究，推動產業應用落地與跨領域合作。
-    </p>
-  </div>
-
-  <!-- 副會長 許惠堯 -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/xuhuiyao.jpg" alt="副會長 許惠堯" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">許惠堯</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">副會長</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      國立陽明交通大學公共衛生研究所碩士，中國醫藥大學公共衛生學系學士。長期關注公共衛生與大健康產業，推動人工智慧技術與公共健康領域的融合應用。
-    </p>
-  </div>
-
-  <!-- 副會長 姚蘊慧 -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/yaoyunhui.jpg" alt="副會長 姚蘊慧" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">姚蘊慧</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">副會長</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      中國文化大學國家發展與中國大陸研究所副教授。學術專長為比較社會政策與社會運動，致力於探討人工智慧在社會發展中的倫理治理與應用政策。
-    </p>
-  </div>
-
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/jiangtao.jpg" alt="會長 蔣濤" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">蔣濤</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">會長</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">推動協會整體發展、AI 技術交流與產業合作。</p>
+</div>
 </div>
 
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/xuhuiyao.jpg" alt="副會長 許惠堯" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">許惠堯</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">副會長</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">協助推動會員服務、跨域交流與 AI 應用合作。</p>
+</div>
+</div>
+
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/yaoyunhui.jpg" alt="副會長 姚蘊慧" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">姚蘊慧</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">副會長</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">中國文化大學國家發展與中國大陸研究所副教授，學術專長為比較社會政策與社會運動，關注 AI 治理與公共政策應用。</p>
+</div>
+</div>
+
+</div>

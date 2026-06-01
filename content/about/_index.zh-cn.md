@@ -34,39 +34,35 @@ Chinese AI Application Development Association
 
 ## 协会架构
 
-本会由会长与副会长共同推动协会发展方向、会员服务、产业合作与对外交流。
+本会由会长与副会长共同推动协会发展、会员服务与对外交流。
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 my-10">
+<div class="not-prose my-8 divide-y divide-neutral-200 overflow-hidden border-y border-neutral-200 dark:divide-neutral-700 dark:border-neutral-700">
 
-  <!-- 会长卡片 -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/jiangtao.jpg" alt="会长 蒋涛" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">蒋涛</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">会长</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      复旦大学人工智能博士。长期致力于人工智能前沿技术研究，推动产业应用落地与跨领域合作。
-    </p>
-  </div>
-
-  <!-- 副会长 许惠尧 -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/xuhuiyao.jpg" alt="副会长 许惠尧" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">许惠尧</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">副会长</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      国立阳明交通大学公共卫生研究所硕士，中国医药大学公共卫生学系学士。长期关注公共卫生与大健康产业，推动人工智能技术与公共健康领域的融合应用。
-    </p>
-  </div>
-
-  <!-- 副会长 姚蕴慧 -->
-  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
-    <img src="images/yaoyunhui.jpg" alt="副会长 姚蕴慧" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
-    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">姚蕴慧</h3>
-    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">副会长</p>
-    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
-      中国文化大学国家发展与中国大陆研究所副教授。学术专长为比较社会政策与社会运动，致力于探讨人工智能在社会发展中的伦理治理与应用政策。
-    </p>
-  </div>
-
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/jiangtao.jpg" alt="会长 蒋涛" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">蒋涛</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">会长</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">推动协会整体发展、AI 技术交流与产业合作。</p>
+</div>
 </div>
 
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/xuhuiyao.jpg" alt="副会长 许惠尧" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">许惠尧</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">副会长</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">协助推动会员服务、跨域交流与 AI 应用合作。</p>
+</div>
+</div>
+
+<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
+<img src="images/yaoyunhui.jpg" alt="副会长 姚蕴慧" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div>
+<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">姚蕴慧</div>
+<div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">副会长</div>
+<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">中国文化大学国家发展与中国大陆研究所副教授，学术专长为比较社会政策与社会运动，关注 AI 治理与公共政策应用。</p>
+</div>
+</div>
+
+</div>
