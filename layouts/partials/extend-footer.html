@@ -1,1 +1,59 @@
 <a rel="me" href="https://masto.ai/@blowfish"></a>
+
+{{/* 修復：Tailwind CSS v4 的 CSS 嵌套語法（peer-checked）在舊版 iOS Safari 上不支援
+     透過展開的 CSS 選擇器以及 JavaScript fallback 確保行動選單在真機上正常運作 */}}
+<style>
+  /* 展開 peer-checked 選擇器，覆蓋 Tailwind v4 的巢狀語法，相容舊版 iOS Safari */
+  #mobile-menu-toggle:checked ~ div[role="dialog"] {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  #mobile-menu-toggle:checked ~ * .peer-checked\:visible,
+  .peer:checked ~ .peer-checked\:visible {
+    visibility: visible !important;
+  }
+  .peer:checked ~ .peer-checked\:opacity-100 {
+    opacity: 1 !important;
+  }
+</style>
+
+<script>
+  (function () {
+    var toggle = document.getElementById('mobile-menu-toggle');
+    if (!toggle) return;
+
+    /* 找到緊接在 toggle 之後的 dialog overlay */
+    function getOverlay() {
+      var el = toggle.nextElementSibling;
+      while (el) {
+        if (el.getAttribute('role') === 'dialog') return el;
+        el = el.nextElementSibling;
+      }
+      return null;
+    }
+
+    function applyState() {
+      var overlay = getOverlay();
+      if (!overlay) return;
+      if (toggle.checked) {
+        overlay.style.visibility = 'visible';
+        overlay.style.opacity = '1';
+      } else {
+        overlay.style.visibility = '';
+        overlay.style.opacity = '';
+      }
+    }
+
+    toggle.addEventListener('change', applyState);
+
+    /* 為所有 label[for="mobile-menu-toggle"] 加上 touchend 處理
+       解決 iOS Safari label 觸控事件不可靠的問題 */
+    document.querySelectorAll('label[for="mobile-menu-toggle"]').forEach(function (label) {
+      label.addEventListener('touchend', function (e) {
+        e.preventDefault();
+        toggle.checked = !toggle.checked;
+        toggle.dispatchEvent(new Event('change'));
+      });
+    });
+  })();
+</script>
