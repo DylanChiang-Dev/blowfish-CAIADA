@@ -45,7 +45,7 @@ Chinese AI Application Development Association
     <p class="text-primary-600 dark:text-primary-400 font-medium mb-0">會長</p>
     <hr class="my-3 border-neutral-200 dark:border-neutral-700" />
     <p class="text-sm text-neutral-600 dark:text-neutral-400 text-left leading-relaxed">
-      復旦大學人工智能博士生，中國文化大學碩士。未識（Weishi）創辦人，專注於 AIGC 商業化實戰與 AI 系統落地，曾榮獲雲台大賽最佳創意獎。
+      復旦大學人工智能博士。長期致力於人工智慧前沿技術研究，推動產業應用落地與跨領域合作。
     </p>
   </div>
 </div>
