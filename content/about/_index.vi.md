@@ -39,39 +39,34 @@ Chủ tịch và các Phó Chủ tịch cùng định hướng phát triển hi�
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 my-10">
 
   <!-- Chủ tịch Card -->
-  <div class="group bg-white/70 dark:bg-neutral-900/70 backdrop-blur-md border border-neutral-200/50 dark:border-neutral-700/40 p-8 rounded-2xl text-center shadow-lg hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 flex flex-col items-center">
-    <div class="relative mb-6">
-      <img src="images/jiangtao.jpg" alt="Chủ tịch Jiang Tao" class="rounded-full object-cover border-4 border-white dark:border-neutral-800 shadow-md group-hover:border-primary-500/30 transition-colors duration-300" style="width: 9rem; height: 9rem;" />
-    </div>
-    <h3 class="text-2xl font-extrabold text-neutral-800 dark:text-neutral-100 mb-1 tracking-tight">Jiang Tao</h3>
-    <p class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-primary-700 bg-primary-100/80 dark:text-primary-300 dark:bg-primary-900/50 rounded-full mb-4">Chủ tịch</p>
+  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
+    <img src="images/jiangtao.jpg" alt="Chủ tịch Jiang Tao" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
+    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">Jiang Tao</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">Chủ tịch</p>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
       Tiến sĩ Trí tuệ Nhân tạo, Đại học Phục Đán. Dành nhiều năm nghiên cứu công nghệ AI tiên phong, thúc đẩy ứng dụng thực tế trong công nghiệp và hợp tác liên ngành.
     </p>
   </div>
 
   <!-- Phó Chủ tịch Xu Huiyao -->
-  <div class="group bg-white/70 dark:bg-neutral-900/70 backdrop-blur-md border border-neutral-200/50 dark:border-neutral-700/40 p-8 rounded-2xl text-center shadow-lg hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 flex flex-col items-center">
-    <div class="relative mb-6">
-      <img src="images/xuhuiyao.jpg" alt="Phó Chủ tịch Xu Huiyao" class="rounded-full object-cover border-4 border-white dark:border-neutral-800 shadow-md group-hover:border-primary-500/30 transition-colors duration-300" style="width: 9rem; height: 9rem;" />
-    </div>
-    <h3 class="text-2xl font-extrabold text-neutral-800 dark:text-neutral-100 mb-1 tracking-tight">Xu Huiyao</h3>
-    <p class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-primary-700 bg-primary-100/80 dark:text-primary-300 dark:bg-primary-900/50 rounded-full mb-4">Phó Chủ tịch</p>
+  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
+    <img src="images/xuhuiyao.jpg" alt="Phó Chủ tịch Xu Huiyao" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
+    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">Xu Huiyao</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">Phó Chủ tịch</p>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
       Thạc sĩ Viện Nghiên cứu Sức khỏe Công cộng, Đại học Quốc gia Dương Minh Giao Thông; Cử nhân Khoa Sức khỏe Công cộng, Đại học Y Dược Trung Hoa. Tập trung lâu năm vào sức khỏe công cộng và ngành y tế lớn, thúc đẩy tích hợp và ứng dụng AI trong lĩnh vực y tế công cộng.
     </p>
   </div>
 
   <!-- Phó Chủ tịch Yao Yunhui -->
-  <div class="group bg-white/70 dark:bg-neutral-900/70 backdrop-blur-md border border-neutral-200/50 dark:border-neutral-700/40 p-8 rounded-2xl text-center shadow-lg hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 flex flex-col items-center">
-    <div class="relative mb-6">
-      <img src="images/yaoyunhui.jpg" alt="Phó Chủ tịch Yao Yunhui" class="rounded-full object-cover border-4 border-white dark:border-neutral-800 shadow-md group-hover:border-primary-500/30 transition-colors duration-300" style="width: 9rem; height: 9rem;" />
-    </div>
-    <h3 class="text-2xl font-extrabold text-neutral-800 dark:text-neutral-100 mb-1 tracking-tight">Yao Yunhui</h3>
-    <p class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-primary-700 bg-primary-100/80 dark:text-primary-300 dark:bg-primary-900/50 rounded-full mb-4">Phó Chủ tịch</p>
+  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
+    <img src="images/yaoyunhui.jpg" alt="Phó Chủ tịch Yao Yunhui" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
+    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">Yao Yunhui</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">Phó Chủ tịch</p>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
       Phó Giáo sư, Viện Nghiên cứu Phát triển Quốc gia và Đại lục, Đại học Văn hóa Trung Hoa. Chuyên môn học thuật về chính sách xã hội so sánh và phong trào xã hội, cống hiến cho việc nghiên cứu quản trị đạo đức và chính sách ứng dụng của AI trong phát triển xã hội.
     </p>
   </div>
 
 </div>
+

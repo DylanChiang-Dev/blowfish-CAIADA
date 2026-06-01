@@ -39,39 +39,34 @@ Chinese AI Application Development Association
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 my-10">
 
   <!-- 會長卡片 -->
-  <div class="group bg-white/70 dark:bg-neutral-900/70 backdrop-blur-md border border-neutral-200/50 dark:border-neutral-700/40 p-8 rounded-2xl text-center shadow-lg hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 flex flex-col items-center">
-    <div class="relative mb-6">
-      <img src="images/jiangtao.jpg" alt="會長 蔣濤" class="rounded-full object-cover border-4 border-white dark:border-neutral-800 shadow-md group-hover:border-primary-500/30 transition-colors duration-300" style="width: 9rem; height: 9rem;" />
-    </div>
-    <h3 class="text-2xl font-extrabold text-neutral-800 dark:text-neutral-100 mb-1 tracking-tight">蔣濤</h3>
-    <span class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-primary-700 bg-primary-100/80 dark:text-primary-300 dark:bg-primary-900/50 rounded-full mb-4">會長</span>
+  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
+    <img src="images/jiangtao.jpg" alt="會長 蔣濤" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
+    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">蔣濤</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">會長</p>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
       復旦大學人工智能博士。長期致力於人工智慧前沿技術研究，推動產業應用落地與跨領域合作。
     </p>
   </div>
 
   <!-- 副會長 許惠堯 -->
-  <div class="group bg-white/70 dark:bg-neutral-900/70 backdrop-blur-md border border-neutral-200/50 dark:border-neutral-700/40 p-8 rounded-2xl text-center shadow-lg hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 flex flex-col items-center">
-    <div class="relative mb-6">
-      <img src="images/xuhuiyao.jpg" alt="副會長 許惠堯" class="rounded-full object-cover border-4 border-white dark:border-neutral-800 shadow-md group-hover:border-primary-500/30 transition-colors duration-300" style="width: 9rem; height: 9rem;" />
-    </div>
-    <h3 class="text-2xl font-extrabold text-neutral-800 dark:text-neutral-100 mb-1 tracking-tight">許惠堯</h3>
-    <span class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-primary-700 bg-primary-100/80 dark:text-primary-300 dark:bg-primary-900/50 rounded-full mb-4">副會長</span>
+  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
+    <img src="images/xuhuiyao.jpg" alt="副會長 許惠堯" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
+    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">許惠堯</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">副會長</p>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
       國立陽明交通大學公共衛生研究所碩士，中國醫藥大學公共衛生學系學士。長期關注公共衛生與大健康產業，推動人工智慧技術與公共健康領域的融合應用。
     </p>
   </div>
 
   <!-- 副會長 姚蘊慧 -->
-  <div class="group bg-white/70 dark:bg-neutral-900/70 backdrop-blur-md border border-neutral-200/50 dark:border-neutral-700/40 p-8 rounded-2xl text-center shadow-lg hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 flex flex-col items-center">
-    <div class="relative mb-6">
-      <img src="images/yaoyunhui.jpg" alt="副會長 姚蘊慧" class="rounded-full object-cover border-4 border-white dark:border-neutral-800 shadow-md group-hover:border-primary-500/30 transition-colors duration-300" style="width: 9rem; height: 9rem;" />
-    </div>
-    <h3 class="text-2xl font-extrabold text-neutral-800 dark:text-neutral-100 mb-1 tracking-tight">姚蘊慧</h3>
-    <span class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-primary-700 bg-primary-100/80 dark:text-primary-300 dark:bg-primary-900/50 rounded-full mb-4">副會長</span>
+  <div class="bg-neutral-100 dark:bg-neutral-800 p-8 rounded-2xl text-center flex flex-col items-center shadow-sm">
+    <img src="images/yaoyunhui.jpg" alt="副會長 姚蘊慧" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-neutral-700 shadow-sm" />
+    <h3 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-1">姚蘊慧</h3>
+    <p class="text-primary-600 dark:text-primary-400 font-semibold mb-3">副會長</p>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
       中國文化大學國家發展與中國大陸研究所副教授。學術專長為比較社會政策與社會運動，致力於探討人工智慧在社會發展中的倫理治理與應用政策。
     </p>
   </div>
 
 </div>
+
