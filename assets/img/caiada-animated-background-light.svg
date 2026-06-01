@@ -49,14 +49,18 @@
       @media (prefers-reduced-motion: reduce) {
         .drift-a, .drift-b, .pulse, .dash { animation: none; }
       }
+      @media (max-width: 767px) {
+        .drift-a, .drift-b, .pulse, .dash { animation: none; }
+        .soft-shape { filter: none; }
+      }
     </style>
   </defs>
 
   <rect width="1600" height="900" fill="#f7fbff"/>
   <rect width="1600" height="900" fill="#eaf4fb" opacity="0.72"/>
-  <circle cx="1320" cy="160" r="520" fill="#1f78c8" opacity="0.12" filter="url(#soft)"/>
-  <circle cx="1180" cy="780" r="420" fill="#2ab8dc" opacity="0.09" filter="url(#soft)"/>
-  <circle cx="190" cy="760" r="360" fill="#d5ab54" opacity="0.08" filter="url(#soft)"/>
+  <circle class="soft-shape" cx="1320" cy="160" r="520" fill="#1f78c8" opacity="0.12" filter="url(#soft)"/>
+  <circle class="soft-shape" cx="1180" cy="780" r="420" fill="#2ab8dc" opacity="0.09" filter="url(#soft)"/>
+  <circle class="soft-shape" cx="190" cy="760" r="360" fill="#d5ab54" opacity="0.08" filter="url(#soft)"/>
 
   <g class="drift-a" fill="none" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round">
     <path class="dash" d="M-80 760 C 220 620, 390 800, 650 650 S 1040 380, 1680 520"/>
