@@ -23,7 +23,7 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/caiada-animated-background.svg"
+defaultBackgroundImage = "/img/caiada-background.png"
 defaultFeaturedImage = "/img/caiada-featured.webp"
 defaultSocialImage = "/img/caiada-social-card.webp"
 
