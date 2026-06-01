@@ -38,30 +38,30 @@ The President and Vice Presidents jointly support the association's development,
 
 <div class="not-prose my-8 divide-y divide-neutral-200 overflow-hidden border-y border-neutral-200 dark:divide-neutral-700 dark:border-neutral-700">
 
-<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
-<img src="images/jiangtao.jpg" alt="President Jiang Tao" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div class="flex gap-4 py-5 items-start">
+<img src="images/jiangtao.jpg" alt="President Jiang Tao" class="h-16 w-16 sm:h-20 sm:w-20 shrink-0 rounded-full object-cover" />
 <div>
-<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Jiang Tao</div>
+<div class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-100">Jiang Tao</div>
 <div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">President</div>
-<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Promotes CAIADA's development, AI technology exchange, and industrial cooperation.</p>
+<p class="mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-neutral-700 dark:text-neutral-300">Promotes CAIADA's development, AI technology exchange, and industrial cooperation.</p>
 </div>
 </div>
 
-<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
-<img src="images/xuhuiyao.jpg" alt="Vice President Xu Huiyao" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div class="flex gap-4 py-5 items-start">
+<img src="images/xuhuiyao.jpg" alt="Vice President Xu Huiyao" class="h-16 w-16 sm:h-20 sm:w-20 shrink-0 rounded-full object-cover" />
 <div>
-<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Xu Huiyao</div>
+<div class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-100">Xu Huiyao</div>
 <div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Vice President</div>
-<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Supports member services, cross-sector exchange, and AI application cooperation.</p>
+<p class="mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-neutral-700 dark:text-neutral-300">Supports member services, cross-sector exchange, and AI application cooperation.</p>
 </div>
 </div>
 
-<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
-<img src="images/yaoyunhui.jpg" alt="Vice President Yao Yunhui" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div class="flex gap-4 py-5 items-start">
+<img src="images/yaoyunhui.jpg" alt="Vice President Yao Yunhui" class="h-16 w-16 sm:h-20 sm:w-20 shrink-0 rounded-full object-cover" />
 <div>
-<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Yao Yunhui</div>
+<div class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-100">Yao Yunhui</div>
 <div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Vice President</div>
-<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Associate Professor at the Graduate Institute of National Development and Mainland China Studies, Chinese Culture University; specializes in comparative social policy and social movements, with a focus on AI governance and public policy applications.</p>
+<p class="mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-neutral-700 dark:text-neutral-300">Associate Professor at the Graduate Institute of National Development and Mainland China Studies, Chinese Culture University; specializes in comparative social policy, with a focus on AI governance and public policy applications.</p>
 </div>
 </div>
 

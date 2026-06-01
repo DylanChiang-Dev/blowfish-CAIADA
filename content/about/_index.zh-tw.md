@@ -38,30 +38,30 @@ Chinese AI Application Development Association
 
 <div class="not-prose my-8 divide-y divide-neutral-200 overflow-hidden border-y border-neutral-200 dark:divide-neutral-700 dark:border-neutral-700">
 
-<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
-<img src="images/jiangtao.jpg" alt="會長 蔣濤" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div class="flex gap-4 py-5 items-start">
+<img src="images/jiangtao.jpg" alt="會長 蔣濤" class="h-16 w-16 sm:h-20 sm:w-20 shrink-0 rounded-full object-cover" />
 <div>
-<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">蔣濤</div>
+<div class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-100">蔣濤</div>
 <div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">會長</div>
-<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">推動協會整體發展、AI 技術交流與產業合作。</p>
+<p class="mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-neutral-700 dark:text-neutral-300">推動協會整體發展、AI 技術交流與產業合作。</p>
 </div>
 </div>
 
-<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
-<img src="images/xuhuiyao.jpg" alt="副會長 許惠堯" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div class="flex gap-4 py-5 items-start">
+<img src="images/xuhuiyao.jpg" alt="副會長 許惠堯" class="h-16 w-16 sm:h-20 sm:w-20 shrink-0 rounded-full object-cover" />
 <div>
-<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">許惠堯</div>
+<div class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-100">許惠堯</div>
 <div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">副會長</div>
-<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">協助推動會員服務、跨域交流與 AI 應用合作。</p>
+<p class="mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-neutral-700 dark:text-neutral-300">協助推動會員服務、跨域交流與 AI 應用合作。</p>
 </div>
 </div>
 
-<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
-<img src="images/yaoyunhui.jpg" alt="副會長 姚蘊慧" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div class="flex gap-4 py-5 items-start">
+<img src="images/yaoyunhui.jpg" alt="副會長 姚蘊慧" class="h-16 w-16 sm:h-20 sm:w-20 shrink-0 rounded-full object-cover" />
 <div>
-<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">姚蘊慧</div>
+<div class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-100">姚蘊慧</div>
 <div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">副會長</div>
-<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">中國文化大學國家發展與中國大陸研究所副教授，學術專長為比較社會政策與社會運動，關注 AI 治理與公共政策應用。</p>
+<p class="mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-neutral-700 dark:text-neutral-300">中國文化大學國家發展與中國大陸研究所副教授，學術專長為比較社會政策，關注 AI 治理與公共政策應用。</p>
 </div>
 </div>
 

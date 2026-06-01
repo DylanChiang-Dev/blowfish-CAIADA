@@ -38,30 +38,30 @@ Chủ tịch và các Phó Chủ tịch cùng hỗ trợ phát triển hiệp h�
 
 <div class="not-prose my-8 divide-y divide-neutral-200 overflow-hidden border-y border-neutral-200 dark:divide-neutral-700 dark:border-neutral-700">
 
-<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
-<img src="images/jiangtao.jpg" alt="Chủ tịch Jiang Tao" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div class="flex gap-4 py-5 items-start">
+<img src="images/jiangtao.jpg" alt="Chủ tịch Jiang Tao" class="h-16 w-16 sm:h-20 sm:w-20 shrink-0 rounded-full object-cover" />
 <div>
-<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Jiang Tao</div>
+<div class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-100">Jiang Tao</div>
 <div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Chủ tịch</div>
-<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Thúc đẩy phát triển hiệp hội, trao đổi công nghệ AI và hợp tác công nghiệp.</p>
+<p class="mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-neutral-700 dark:text-neutral-300">Thúc đẩy phát triển hiệp hội, trao đổi công nghệ AI và hợp tác công nghiệp.</p>
 </div>
 </div>
 
-<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
-<img src="images/xuhuiyao.jpg" alt="Phó Chủ tịch Xu Huiyao" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div class="flex gap-4 py-5 items-start">
+<img src="images/xuhuiyao.jpg" alt="Phó Chủ tịch Xu Huiyao" class="h-16 w-16 sm:h-20 sm:w-20 shrink-0 rounded-full object-cover" />
 <div>
-<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Xu Huiyao</div>
+<div class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-100">Xu Huiyao</div>
 <div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Phó Chủ tịch</div>
-<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Hỗ trợ dịch vụ hội viên, trao đổi liên lĩnh vực và hợp tác ứng dụng AI.</p>
+<p class="mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-neutral-700 dark:text-neutral-300">Hỗ trợ dịch vụ hội viên, trao đổi liên lĩnh vực và hợp tác ứng dụng AI.</p>
 </div>
 </div>
 
-<div class="flex flex-col gap-4 py-6 sm:flex-row sm:items-center">
-<img src="images/yaoyunhui.jpg" alt="Phó Chủ tịch Yao Yunhui" class="h-24 w-24 shrink-0 rounded-full object-cover" />
+<div class="flex gap-4 py-5 items-start">
+<img src="images/yaoyunhui.jpg" alt="Phó Chủ tịch Yao Yunhui" class="h-16 w-16 sm:h-20 sm:w-20 shrink-0 rounded-full object-cover" />
 <div>
-<div class="text-xl font-semibold text-neutral-800 dark:text-neutral-100">Yao Yunhui</div>
+<div class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-100">Yao Yunhui</div>
 <div class="mt-1 text-sm font-medium text-primary-600 dark:text-primary-400">Phó Chủ tịch</div>
-<p class="mt-3 text-base leading-7 text-neutral-700 dark:text-neutral-300">Phó Giáo sư tại Viện Nghiên cứu Phát triển Quốc gia và Đại lục, Đại học Văn hóa Trung Hoa; chuyên về chính sách xã hội so sánh và phong trào xã hội, quan tâm đến quản trị AI và ứng dụng chính sách công.</p>
+<p class="mt-2 text-sm sm:text-base leading-6 sm:leading-7 text-neutral-700 dark:text-neutral-300">Phó Giáo sư tại Viện Nghiên cứu Phát triển Quốc gia và Đại lục, Đại học Văn hóa Trung Hoa; chuyên về chính sách xã hội so sánh, quan tâm đến quản trị AI và ứng dụng chính sách công.</p>
 </div>
 </div>
 
