@@ -15,7 +15,7 @@ enableCodeCopy = true
 
 replyByEmail = false
 
-mainSections = []
+mainSections = ["news"]
 # robots = ""
 
 disableImageOptimization = false
@@ -49,10 +49,10 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
 [homepage]
   layout = "custom" # valid options: page, profile, hero, card, background, custom
   # homepageImage = "/img/iceland.jpg" # used in: hero, and card
-  showRecent = false
-  showRecentItems = 0
-  showMoreLink = false
-  showMoreLinkDest = ""
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "news/"
   cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # avoid full-screen backdrop blur on mobile

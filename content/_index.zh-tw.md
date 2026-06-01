@@ -1,71 +1,53 @@
 ---
 title: "中華AI應用發展協會"
-description: "促進人工智慧技術發展與產業應用，推動智慧化社會永續成長"
+description: "AI 產業交流、會員內容與資源對接平台"
 ---
 
-促進人工智慧技術發展與產業應用，推動智慧化社會永續成長
+AI 產業交流、會員內容與資源對接平台
 
----
+加入會員，獲取專屬內容、行業資訊、課程活動與資源對接。
 
-## 我們的使命
-
-中華AI應用發展協會（CAIADA）致力於成為台灣AI產業發展的重要推手，連結學術界、產業界與政府部門，共同打造創新的AI生態系統。
-
-### 核心任務
-
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
-
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-<h3 class="text-xl font-bold mb-2">技術研發與推廣</h3>
-<p>人工智慧核心技術研發與跨域應用推廣，推動技術創新與實踐。</p>
+<div class="not-prose mx-auto mt-6 mb-10 flex max-w-3xl flex-col items-stretch gap-3 sm:flex-row sm:justify-center">
+  <a class="inline-flex items-center justify-center rounded-md border border-primary-500/70 px-5 py-3 text-sm font-semibold text-primary-700 transition hover:border-primary-500 hover:bg-primary-500/10 dark:text-primary-200" href="/about/">了解會員服務</a>
+  <a class="inline-flex items-center justify-center rounded-md border border-neutral-300/70 px-5 py-3 text-sm font-semibold text-neutral-700 transition hover:border-primary-500 hover:text-primary-700 dark:border-neutral-600 dark:text-neutral-200 dark:hover:text-primary-200" href="/news/">查看協會內容</a>
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-<h3 class="text-xl font-bold mb-2">產業整合與合作</h3>
-<p>AI產業跨域整合與國際合作交流，建立產業發展的橋樑。</p>
+<div class="not-prose mx-auto mb-12 max-w-4xl rounded-lg border border-neutral-200/80 bg-white/70 p-5 shadow-sm backdrop-blur dark:border-neutral-700/70 dark:bg-neutral-900/55">
+  <div class="text-center">
+    <p class="m-0 text-sm font-semibold text-neutral-800 dark:text-neutral-100">會長主理內容頻道</p>
+    <p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">Facebook 粉絲專頁、X、微信公眾號以會長名義運營，協會內容可同步整理與發布。</p>
+  </div>
+  <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
+    <div class="rounded-md border border-neutral-200 bg-white/75 px-4 py-3 text-center dark:border-neutral-700 dark:bg-neutral-800/75" aria-label="Facebook 粉絲專頁待補">
+      <div class="text-sm font-semibold">Facebook 粉絲專頁</div>
+      <div class="mt-1 text-xs text-neutral-500 dark:text-neutral-400">連結待補</div>
+    </div>
+    <div class="rounded-md border border-neutral-200 bg-white/75 px-4 py-3 text-center dark:border-neutral-700 dark:bg-neutral-800/75" aria-label="X 帳號待補">
+      <div class="text-sm font-semibold">X</div>
+      <div class="mt-1 text-xs text-neutral-500 dark:text-neutral-400">連結待補</div>
+    </div>
+    <div class="rounded-md border border-neutral-200 bg-white/75 px-4 py-3 text-center dark:border-neutral-700 dark:bg-neutral-800/75" aria-label="微信公眾號待補">
+      <div class="text-sm font-semibold">微信公眾號</div>
+      <div class="mt-1 text-xs text-neutral-500 dark:text-neutral-400">帳號待補</div>
+    </div>
+  </div>
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-<h3 class="text-xl font-bold mb-2">人才培育與教育</h3>
-<p>AI專業人才培育與教育推廣，提升產業競爭力與創新能力。</p>
-</div>
-
-</div>
-
----
-
-## 發展重點
-
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
-
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-<h3 class="text-xl font-bold mb-3">技術創新</h3>
-<ul class="list-none space-y-2 text-sm pl-0">
-  <li>機器學習與深度學習技術研發</li>
-  <li>自然語言處理與電腦視覺應用</li>
-  <li>邊緣運算與物聯網整合</li>
-  <li>區塊鏈與AI融合應用</li>
-</ul>
-</div>
-
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-<h3 class="text-xl font-bold mb-3">產業應用</h3>
-<ul class="list-none space-y-2 text-sm pl-0">
-  <li>智慧製造與工業4.0</li>
-  <li>智慧醫療與健康照護</li>
-  <li>智慧金融與風險管理</li>
-  <li>智慧城市與永續發展</li>
-</ul>
-</div>
-
-<div class="bg-neutral-100 dark:bg-neutral-800 p-6 rounded-lg">
-<h3 class="text-xl font-bold mb-3">人才發展</h3>
-<ul class="list-none space-y-2 text-sm pl-0">
-  <li>AI專業課程設計與認證</li>
-  <li>產學合作與實習計畫</li>
-  <li>國際交流與技術移轉</li>
-  <li>創業輔導與投資媒合</li>
-</ul>
-</div>
-
+<div class="not-prose grid grid-cols-1 gap-5 md:grid-cols-3">
+  <section class="rounded-lg border border-neutral-200/80 bg-white/72 p-5 shadow-sm dark:border-neutral-700/70 dark:bg-neutral-900/55">
+    <p class="mb-2 text-xs font-semibold uppercase text-primary-700 dark:text-primary-300">Member</p>
+    <h2 class="mt-0 text-xl font-bold text-neutral-900 dark:text-neutral-100">會員專享內容</h2>
+    <p class="mt-3 text-sm leading-7 text-neutral-700 dark:text-neutral-300">提供知識星球式內容、行業資料、課程專欄與會員動態，讓會員能持續掌握 AI 應用與產業資訊。</p>
+  </section>
+  <section class="rounded-lg border border-neutral-200/80 bg-white/72 p-5 shadow-sm dark:border-neutral-700/70 dark:bg-neutral-900/55">
+    <p class="mb-2 text-xs font-semibold uppercase text-primary-700 dark:text-primary-300">News</p>
+    <h2 class="mt-0 text-xl font-bold text-neutral-900 dark:text-neutral-100">協會新聞與最新內容</h2>
+    <p class="mt-3 text-sm leading-7 text-neutral-700 dark:text-neutral-300">整合協會公告、活動紀錄與產業觀察，首頁下方會同步顯示最新新聞。</p>
+    <a class="mt-4 inline-flex text-sm font-semibold text-primary-700 hover:text-primary-500 dark:text-primary-300" href="/news/">前往協會新聞</a>
+  </section>
+  <section class="rounded-lg border border-neutral-200/80 bg-white/72 p-5 shadow-sm dark:border-neutral-700/70 dark:bg-neutral-900/55">
+    <p class="mb-2 text-xs font-semibold uppercase text-primary-700 dark:text-primary-300">Service</p>
+    <h2 class="mt-0 text-xl font-bold text-neutral-900 dark:text-neutral-100">資源服務對接</h2>
+    <p class="mt-3 text-sm leading-7 text-neutral-700 dark:text-neutral-300">連結商務合作、產業資源、課程活動，以及 Token、VPN 等會員服務入口。</p>
+  </section>
 </div>
