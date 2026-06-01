@@ -1,70 +1,228 @@
 <a rel="me" href="https://masto.ai/@blowfish"></a>
 
-{{/* 修復：Tailwind CSS v4 的 CSS 嵌套語法（peer-checked）在舊版 iOS Safari 上不支援
-     透過展開的 CSS 選擇器以及 JavaScript fallback 確保行動選單在真機上正常運作 */}}
-<style>
-  /* 展開 peer-checked 選擇器，覆蓋 Tailwind v4 的巢狀語法，相容舊版 iOS Safari */
-  #mobile-menu-toggle:checked ~ div[role="dialog"] {
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-  #mobile-menu-toggle:checked ~ * .peer-checked\:visible,
-  .peer:checked ~ .peer-checked\:visible {
-    visibility: visible !important;
-  }
-  .peer:checked ~ .peer-checked\:opacity-100 {
-    opacity: 1 !important;
-  }
+{{/*
+  iOS Safari 相容性全面修復 (iOS Safari < 16.5)
+  =================================================
+  問題根源：Tailwind CSS v4 生成的 CSS 使用了以下現代語法：
+    1. CSS 嵌套 (&:is(.dark *), &:hover, &:is(.peer:checked ~ *) 等)
+    2. color-mix() 函數（用於透明度修飾符 bg-xxx/nn）
+    3. @media (hover: hover) 包裹的 hover 樣式
+  這些語法在 iOS 16.4 及以下版本不被支援，導致 dark mode 樣式、
+  peer-checked 選單、以及帶透明度的背景色全部失效。
 
-  /* 修復行動裝置選單背景透明問題
-     Tailwind v4 的 bg-neutral-50/97 使用 color-mix()，舊版 iOS Safari 不支援
-     bg-neutral-900/99 包在 CSS 巢狀選擇器 &:is(.dark *) 裡，同樣不相容
-     此處用標準 rgba() 值直接覆蓋 */
-  div[role="dialog"].bg-neutral-50\/97 {
-    background-color: rgba(250, 250, 250, 0.97) !important; /* neutral-50 ≈ #fafafa */
-  }
-  html.dark div[role="dialog"].bg-neutral-50\/97 {
-    background-color: rgba(23, 23, 23, 0.99) !important;   /* neutral-900 ≈ #171717 */
-  }
+  修復策略：
+    - CSS：將所有巢狀規則展開為標準 CSS 選擇器並提供 rgba() fallback
+    - JS：為 mobile menu label 加上 touchend 事件確保可點擊
+    - JS：為 appearance-switcher-mobile 加上 touchend 事件確保可點擊
+*/}}
+
+<style>
+/* ============================================================
+   1. Peer-checked 選單修復（優先級最高）
+   ============================================================ */
+#mobile-menu-toggle:checked ~ div[role="dialog"] {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* ============================================================
+   2. 行動裝置選單背景色修復（覆蓋 color-mix()）
+   ============================================================ */
+/* 淺色模式：bg-neutral-50/97 -> rgba(248,250,252, 0.97) */
+div[role="dialog"].bg-neutral-50\/97 {
+  background-color: rgba(248, 250, 252, 0.97) !important;
+}
+/* 深色模式：dark:bg-neutral-900/99 -> rgba(15,23,42, 0.99) */
+html.dark div[role="dialog"].bg-neutral-50\/97 {
+  background-color: rgba(15, 23, 42, 0.99) !important;
+}
+
+/* ============================================================
+   3. Dark mode 全量展開（覆蓋 CSS 嵌套 &:is(.dark *)）
+   顏色對照表（Blowfish colorScheme="blowfish"）：
+   neutral:   255,255,255
+   neutral-50: 248,250,252  neutral-100: 241,245,249
+   neutral-200: 226,232,240 neutral-300: 203,213,225
+   neutral-400: 148,163,184 neutral-500: 100,116,139
+   neutral-600:  71, 85,105 neutral-700:  51, 65, 85
+   neutral-800:  30, 41, 59 neutral-900:  15, 23, 42
+   primary-200: 191,219,254 primary-300: 147,197,253
+   primary-400:  96,165,250 primary-600:  37, 99,235
+   primary-800:  30, 64,175 primary-900:  30, 58,138
+   secondary-400: 34,211,238 secondary-600: 8,145,178
+                              secondary-800: 21,94,117
+   ============================================================ */
+
+/* display */
+html.dark .dark\:block  { display: block  !important; }
+html.dark .dark\:flex   { display: flex   !important; }
+html.dark .dark\:hidden { display: none   !important; }
+
+/* opacity */
+html.dark .dark\:opacity-60 { opacity: 0.6 !important; }
+
+/* backdrop */
+html.dark .dark\:backdrop-brightness-95 { --tw-backdrop-brightness: brightness(0.95) !important; backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,) !important; }
+html.dark .dark\:backdrop-saturate-180  { --tw-backdrop-saturate: saturate(1.8) !important; backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,) !important; }
+
+/* background colors */
+html.dark .dark\:bg-neutral-100 { background-color: rgba(241,245,249,1) !important; }
+html.dark .dark\:bg-neutral-400 { background-color: rgba(148,163,184,1) !important; }
+html.dark .dark\:bg-neutral-600 { background-color: rgba(71,85,105,1)   !important; }
+html.dark .dark\:bg-neutral-700 { background-color: rgba(51,65,85,1)    !important; }
+html.dark .dark\:bg-neutral-800 { background-color: rgba(30,41,59,1)    !important; }
+html.dark .dark\:bg-neutral-900 { background-color: rgba(15,23,42,1)    !important; }
+html.dark .dark\:bg-primary-300 { background-color: rgba(147,197,253,1) !important; }
+html.dark .dark\:bg-primary-400 { background-color: rgba(96,165,250,1)  !important; }
+html.dark .dark\:bg-primary-800 { background-color: rgba(30,64,175,1)   !important; }
+html.dark .dark\:bg-primary-900 { background-color: rgba(30,58,138,1)   !important; }
+
+/* background colors with opacity (color-mix fallback) */
+html.dark .dark\:bg-neutral-800\/25 { background-color: rgba(30,41,59,0.25)   !important; }
+html.dark .dark\:bg-neutral-800\/50 { background-color: rgba(30,41,59,0.5)    !important; }
+html.dark .dark\:bg-neutral-800\/60 { background-color: rgba(30,41,59,0.6)    !important; }
+html.dark .dark\:bg-neutral-900\/50 { background-color: rgba(15,23,42,0.5)    !important; }
+html.dark .dark\:bg-neutral-900\/99 { background-color: rgba(15,23,42,0.99)   !important; }
+html.dark .dark\:bg-primary-800\/30 { background-color: rgba(30,64,175,0.3)   !important; }
+
+/* text colors */
+html.dark .dark\:text-neutral    { color: rgba(255,255,255,1) !important; }
+html.dark .dark\:text-neutral-100{ color: rgba(241,245,249,1) !important; }
+html.dark .dark\:text-neutral-200{ color: rgba(226,232,240,1) !important; }
+html.dark .dark\:text-neutral-300{ color: rgba(203,213,225,1) !important; }
+html.dark .dark\:text-neutral-400{ color: rgba(148,163,184,1) !important; }
+html.dark .dark\:text-neutral-500{ color: rgba(100,116,139,1) !important; }
+html.dark .dark\:text-neutral-700{ color: rgba(51,65,85,1)    !important; }
+html.dark .dark\:text-neutral-800{ color: rgba(30,41,59,1)    !important; }
+html.dark .dark\:text-neutral-900{ color: rgba(15,23,42,1)    !important; }
+html.dark .dark\:text-primary-200{ color: rgba(191,219,254,1) !important; }
+html.dark .dark\:text-primary-400{ color: rgba(96,165,250,1)  !important; }
+html.dark .dark\:text-secondary-400 { color: rgba(34,211,238,1) !important; }
+html.dark .dark\:text-white      { color: #fff !important; }
+
+/* border colors */
+html.dark .dark\:border-neutral-400   { border-color: rgba(148,163,184,1) !important; }
+html.dark .dark\:border-neutral-600   { border-color: rgba(71,85,105,1)   !important; }
+html.dark .dark\:border-neutral-700   { border-color: rgba(51,65,85,1)    !important; }
+html.dark .dark\:border-primary-300   { border-color: rgba(147,197,253,1) !important; }
+html.dark .dark\:border-primary-600   { border-color: rgba(37,99,235,1)   !important; }
+html.dark .dark\:border-secondary-600 { border-color: rgba(8,145,178,1)   !important; }
+html.dark .dark\:border-white\/10     { border-color: rgba(255,255,255,0.1) !important; }
+
+/* gradient from/to */
+html.dark .dark\:from-neutral-800 { --tw-gradient-from: rgba(30,41,59,1) !important; }
+html.dark .dark\:from-primary-600 { --tw-gradient-from: rgba(37,99,235,1) !important; }
+html.dark .dark\:to-neutral-800   { --tw-gradient-to: rgba(30,41,59,1)   !important; }
+html.dark .dark\:to-secondary-800 { --tw-gradient-to: rgba(21,94,117,1)  !important; }
+
+/* dark hover colors (touchscreen: use active state instead) */
+html.dark .dark\:hover\:text-primary-400:active  { color: rgba(96,165,250,1)  !important; }
+html.dark .dark\:hover\:text-neutral-200:active  { color: rgba(226,232,240,1) !important; }
+html.dark .dark\:hover\:text-neutral-800:active  { color: rgba(30,41,59,1)    !important; }
+html.dark .dark\:hover\:bg-primary-400:active    { background-color: rgba(96,165,250,1)  !important; }
+html.dark .dark\:hover\:bg-primary-900:active    { background-color: rgba(30,58,138,1)   !important; }
+html.dark .dark\:hover\:bg-neutral-700:active    { background-color: rgba(51,65,85,1)    !important; }
+
+/* ============================================================
+   4. 淺色模式 hover -> active 觸控裝置 fallback
+   ============================================================ */
+.hover\:text-primary-600:active { color: rgba(37,99,235,1)  !important; }
+.hover\:text-primary-400:active { color: rgba(96,165,250,1) !important; }
+.hover\:bg-primary-500:active   { background-color: rgba(59,130,246,1) !important; }
+.hover\:bg-neutral-700:active   { background-color: rgba(51,65,85,1)   !important; }
+
+/* ============================================================
+   5. group-hover 修復（展開 CSS 嵌套 &:is(.group:hover *)）
+   ============================================================ */
+.group:active .group-hover\:opacity-100 { opacity: 1 !important; }
+.group:active .group-hover\:scale-110   { transform: scale(1.1) !important; }
+
+/* ============================================================
+   6. 行動裝置選單關閉後的 header 模糊層修復
+   ============================================================ */
+html.dark #menu-blur { background-color: rgba(30,41,59,0.25) !important; }
+
+/* ============================================================
+   7. 深色模式 prose-invert 修復（展開關鍵樣式）
+   ============================================================ */
+html.dark .dark\:prose-invert {
+  --tw-prose-body: rgba(203,213,225,1);
+  --tw-prose-headings: #fff;
+  --tw-prose-links: #fff;
+  --tw-prose-bold: #fff;
+  --tw-prose-code: #fff;
+  --tw-prose-hr: rgba(51,65,85,1);
+  --tw-prose-quotes: rgba(241,245,249,1);
+  --tw-prose-quote-borders: rgba(71,85,105,1);
+  --tw-prose-captions: rgba(148,163,184,1);
+  --tw-prose-th-borders: rgba(71,85,105,1);
+  --tw-prose-td-borders: rgba(51,65,85,1);
+  --tw-prose-counters: rgba(148,163,184,1);
+  --tw-prose-bullets: rgba(71,85,105,1);
+  --tw-prose-invert-body: rgba(203,213,225,1);
+  --tw-prose-invert-headings: #fff;
+}
+
+/* ============================================================
+   8. bg-neutral-50/97 修復（color-mix fallback，主 body 背景）
+   ============================================================ */
+.bg-neutral-50\/97 {
+  background-color: rgba(248,250,252,0.97) !important;
+}
 </style>
 
 <script>
   (function () {
+    /* ---- 1. Mobile menu label: touchend fallback ---- */
     var toggle = document.getElementById('mobile-menu-toggle');
-    if (!toggle) return;
-
-    /* 找到緊接在 toggle 之後的 dialog overlay */
-    function getOverlay() {
-      var el = toggle.nextElementSibling;
-      while (el) {
-        if (el.getAttribute('role') === 'dialog') return el;
-        el = el.nextElementSibling;
+    if (toggle) {
+      function getOverlay() {
+        var el = toggle.nextElementSibling;
+        while (el) {
+          if (el.getAttribute('role') === 'dialog') return el;
+          el = el.nextElementSibling;
+        }
+        return null;
       }
-      return null;
-    }
-
-    function applyState() {
-      var overlay = getOverlay();
-      if (!overlay) return;
-      if (toggle.checked) {
-        overlay.style.visibility = 'visible';
-        overlay.style.opacity = '1';
-      } else {
-        overlay.style.visibility = '';
-        overlay.style.opacity = '';
+      function applyMenuState() {
+        var overlay = getOverlay();
+        if (!overlay) return;
+        if (toggle.checked) {
+          overlay.style.visibility = 'visible';
+          overlay.style.opacity    = '1';
+        } else {
+          overlay.style.visibility = '';
+          overlay.style.opacity    = '';
+        }
       }
-    }
+      toggle.addEventListener('change', applyMenuState);
 
-    toggle.addEventListener('change', applyState);
-
-    /* 為所有 label[for="mobile-menu-toggle"] 加上 touchend 處理
-       解決 iOS Safari label 觸控事件不可靠的問題 */
-    document.querySelectorAll('label[for="mobile-menu-toggle"]').forEach(function (label) {
-      label.addEventListener('touchend', function (e) {
-        e.preventDefault();
-        toggle.checked = !toggle.checked;
-        toggle.dispatchEvent(new Event('change'));
+      document.querySelectorAll('label[for="mobile-menu-toggle"]').forEach(function (label) {
+        label.addEventListener('touchend', function (e) {
+          e.preventDefault();
+          toggle.checked = !toggle.checked;
+          toggle.dispatchEvent(new Event('change'));
+        });
       });
-    });
+    }
+
+    /* ---- 2. Appearance switcher mobile: touchend fallback ---- */
+    var switcherMobile = document.getElementById('appearance-switcher-mobile');
+    if (switcherMobile) {
+      switcherMobile.addEventListener('touchend', function (e) {
+        e.preventDefault();
+        /* 模擬 click，讓 appearance.js 的 click listener 正常處理 */
+        switcherMobile.click();
+      });
+    }
+
+    /* ---- 3. Appearance switcher desktop: touchend fallback ---- */
+    var switcher = document.getElementById('appearance-switcher');
+    if (switcher) {
+      switcher.addEventListener('touchend', function (e) {
+        e.preventDefault();
+        switcher.click();
+      });
+    }
   })();
 </script>
