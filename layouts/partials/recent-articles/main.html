@@ -1,9 +1,8 @@
 {{ $recentArticles := 5 }}
 {{ $showMoreLinkDest := "/posts/" }}
-{{ $lang := .Site.Language.Lang }}
-{{ $recentTitle := "產業交流活動" }}
-{{ $showMoreText := "查看更多活動與新聞" }}
-{{ if and (eq $lang "zh-tw") (.Site.Params.homepage.showRecent | default false) }}
+{{ $recentTitle := i18n "homepage.recentTitle" }}
+{{ $showMoreText := i18n "homepage.recentShowMore" }}
+{{ if .Site.Params.homepage.showRecent | default false }}
   {{ if index .Site.Params.homepage "showRecentItems" }}
     {{ $recentArticles = .Site.Params.homepage.showRecentItems }}
   {{ end }}
